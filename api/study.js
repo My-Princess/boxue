@@ -193,7 +193,6 @@ export const getErrorQuestionsetList = (data) => {
 
 
 // 提交错题数据（对的）
-
 export const delErrorQuestionset = (data) => {
 	return request.JA({
 		url: '/bank/delErrorQuestionset',
@@ -202,7 +201,14 @@ export const delErrorQuestionset = (data) => {
 	})
 }
 
-
+// 课程列表评价
+export const indexContent = (data) => {
+	return request.JA({
+		url: '/index/content',
+		method: "POST",
+		data
+	})
+}
 
 
 // 支付

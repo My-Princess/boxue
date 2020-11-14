@@ -69,6 +69,7 @@
 import { tieType, tieMessage, tieList, getNewsType, newsList, focusCreate, focusDel } from '@/api/community.js';
 import MescrollItem from './communityItem.vue'
 import ActiveItem from './activeItem.vue'
+
 export default {
 	components: {
 		MescrollItem,ActiveItem

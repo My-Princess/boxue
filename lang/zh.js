@@ -6,7 +6,7 @@ console.log('触发了呀', uni.getStorageSync('common').count)
 export default {
 	index: {
 		placeholder: '请输入您需要搜索的课程或关键词',
-		information: '最新资讯：',
+		information: '最新资讯:',
 		mainCourse: '免费大讲堂',
 		introductory: '主打课程',
 		compilations: '精选合集',
@@ -14,6 +14,7 @@ export default {
 		ranking: '排行榜',
 		rankingInfo: '仅显示前六名，同等成绩按用户名拼音顺序排列',
 		history: '搜索历史',
+		ercourses:'热门课程',
 		cancel: '取消',
 		train: '培训专区',
 		video: '视频专区',

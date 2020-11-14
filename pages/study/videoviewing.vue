@@ -47,22 +47,26 @@
 					<!-- :ref="'mescrollRef' + activeTab" -->
 					<!-- <mescroll-uni  @init="mescrollInit" height="100%" top="40" :down="downOption" @down="downCallback" :up="upOption" @up="upCallback"> -->
 					<!-- 详情 -->
-					<view class="videoviewing-concent-box1" v-show="activeTab == 0">
+					<view class="videoviewing-concent-box1" v-if="activeTab == 0">
 						<view class="videoviewing-concent-box1-img"><u-parse :content="detailsdata.content" noData="" /></view>
 					</view>
 					<!-- 目录 -->
-					<view class="videoviewing-concent-box2" v-show="activeTab == 1">
-						<u-collapse :head-style="headStyle" :body-style="bodyStyle" event-type="close" @change="change" ref="getcatalog">
+					<view class="videoviewing-concent-box2" v-if="activeTab == 1">
+						<u-collapse :head-style="headStyle" :body-style="bodyStyle" event-type="close" @change="change" >
+							<k-scroll-view ref="k-scroll-view" :refreshType="refreshType" :refreshTip="refreshTip" :loadTip="loadTip" :loadingTip="loadingTip"
+							 :emptyTip="emptyTip" :touchHeight="touchHeight" :height="heights" :bottom="bottom" :autoPullUp="autoPullUp"
+							 :stopPullDown="stopPullDown" @onPullDown="handlePullDown" @onPullUp="handleLoadMore">
 							<u-collapse-item :index="index" @change="itemChange" :title="item.head" v-for="(item, index) in itemList" :key="item.id" v-if="item.type">
 								<view class="collapse-item" v-for="(v, i) in item.body" :key="i" @click="plays(v, i)">
 									<view class="collapse-item-title" :class="i == activeIndex ? 'activeColor' : ''">{{ v.fileName || v.file_name }}</view>
 								</view>
 							</u-collapse-item>
+								</k-scroll-view>
 						</u-collapse>
 					</view>
 
 					<!-- 学员评价 -->
-					<view class="videoviewing-concent-box3" v-show="activeTab == 2">
+					<view class="videoviewing-concent-box3" v-if="activeTab == 2">
 						<view class="student-item">
 							<problemList>
 								<template v-slot:head>
@@ -76,7 +80,7 @@
 					</view>
 
 					<!-- 问题讨论 -->
-					<view class="videoviewing-concent-box3" v-show="activeTab == 3">
+					<view class="videoviewing-concent-box3" v-if="activeTab == 3">
 						<view class="student-item">
 							<problemList>
 								<template v-slot:head>
@@ -140,15 +144,16 @@ import orderFooter from '@/components/orderfooter.vue';
 // import videoSwiper from './videoSwiper.vue'
 import uParse from '@/components/gaoyia-parse/parse.vue'; //引入富文本组件
 import { getIntroduce, getList, collectionintroduce, collectionList } from '@/api/study.js';
-import MescrollMixin from '@/components/mescroll-uni/mescroll-mixins.js';
-import MescrollMoreItemMixin from '@/components/mescroll-uni/mixins/mescroll-more-item.js';
+	import kScrollView from '@/components/k-scroll-view/k-scroll-view.vue';
+// import MescrollMixin from '@/components/mescroll-uni/mescroll-mixins.js';
+// import MescrollMoreItemMixin from '@/components/mescroll-uni/mixins/mescroll-more-item.js';
 export default {
 	components: {
 		orderFooter,
 		uParse
 		// videoSwiper
 	},
-	mixins: [MescrollMixin, MescrollMoreItemMixin],
+	// mixins: [MescrollMixin, MescrollMoreItemMixin],
 	data() {
 		return {
 			id: '',
@@ -198,16 +203,18 @@ export default {
 					type: 1
 				}
 			],
-			downOption: {
-				auto: false // 不自动加载 (mixin已处理第一个tab触发downCallback)
-			},
-			upOption: {
-				auto: false, // 不自动加载
-				noMoreSize: 1, //如果列表已无数据,可设置列表的总数量要大于半页才显示无更多数据;避免列表数据过少(比如只有一条数据),显示无更多数据会不好看; 默认5
-				empty: {
-					tip: '暂无内容' // 提示
-				}
-			}
+			
+			refreshType: 'native',
+			refreshTip: '正在下拉',
+			loadTip: '获取更多数据',
+			loadingTip: '正在加载中...',
+			emptyTip: '--我是有底线的--',
+			touchHeight: 50,
+			heights: 0,
+			bottom: 50,
+			autoPullUp: true,
+			stopPullDown: true, // 如果为 false 则不使用下拉刷新，只进行上拉加载
+		
 		};
 	},
 	computed: {
@@ -299,24 +306,16 @@ export default {
 				getList(data1)
 					.then(res => {
 						console.log('语音视频', res);
-						this.$nextTick(() => {
-							console.log(this.$refs);
-							this.$refs.getcatalog.init();
-						});
-						this.mescroll.endSuccess(res.data.list.length);
 						res.data.list.length < 10 ? (this.directoryPage = this.directoryPage) : (this.directoryPage = ++this.directoryPage);
 						//设置列表数据
-						if (this.page == 1) this.itemList[0].body = []; //如果是第一页需手动制空列表
-
+						if (this.directoryPage == 1) this.itemList[0].body = []; //如果是第一页需手动制空列表
+						
 						this.itemList[0].body = this.itemList[0].body.concat(res.data.list); //追加新数据
 						// this.itemList[0].body = res.data.list;
 
 						console.log('kankan', this.itemList);
 					})
-					.catch(() => {
-						//联网失败, 结束加载
-						this.mescroll.endErr();
-					});
+					
 			}
 			if (ck == 2) {
 				let data1 = { token: uni.getStorageSync('token'), courseType: ck, type: type, class_id: this.detailsdata.classId, page: '1' };
@@ -347,23 +346,8 @@ export default {
 		// 轮播菜单
 		swiperChange(e) {
 			this.activeTab = e.detail.current;
-			this.$nextTick(() => {
-				console.log(this.$refs);
-				this.$refs.getcatalog.init();
-			});
 		},
-		/*目录下拉刷新的回调 */
-		downCallback() {
-			// 这里加载你想下拉刷新的数据, 比如刷新轮播数据
-			// loadSwiper();
-			// 下拉刷新的回调,默认重置上拉加载列表为第一页 (自动执行 page.num=1, 再触发upCallback方法 )
-			this.mescroll.resetUpScroll();
-		},
-		/*目录上拉加载的回调: 其中page.num:当前页 从1开始, page.size:每页数据条数,默认10 */
-		upCallback(page) {
-			console.log('触发');
-			this.getcatalog(1, 1);
-		},
+		
 		myEvaluation() {
 			uni.navigateTo({
 				url: `/pages/study/myEvaluation?id=${this.id}`
@@ -373,6 +357,13 @@ export default {
 			uni.navigateTo({
 				url: `/pages/study/Myquestion?id=${this.id}`
 			});
+		},
+		handleLoadMore(){
+			console.log('触发呀')
+			this.getcatalog(1, 1);
+		},
+		handlePullDown(){
+			console.log('掉毛')
 		},
 		activeTabs(e) {
 			this.activeTab = e;

@@ -1,0 +1,77 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.student-item {
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.problemList-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.problemList-head-name {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.problemList-head-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 156rpx;
+  height: 55rpx;
+  background: -webkit-linear-gradient(65deg, #db1f13 0%, #ff473b 100%);
+  background: linear-gradient(25deg, #db1f13 0%, #ff473b 100%);
+  border-radius: 28px;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+}
+.videoviewing-concent-box1-img {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 667rpx;
+  height: 570rpx;
+}
+.videoviewing-concent-box2 .collapse-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.videoviewing-concent-box2 .collapse-item-img {
+  width: 36rpx;
+  height: 44rpx;
+}
+.videoviewing-concent-box2 .collapse-item-img image {
+  width: 100%;
+  height: 100%;
+}
+
