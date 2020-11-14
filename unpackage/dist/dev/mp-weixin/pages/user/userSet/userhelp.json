@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "帮助反馈",
+  "usingComponents": {
+    "head": "/components/Head/Head"
+  }
+}

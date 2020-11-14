@@ -1,0 +1,100 @@
+.clearfix.data-v-1f5f0c48:after,
+.clearfix.data-v-1f5f0c48:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-1f5f0c48:after {
+  clear: both;
+}
+.activeColor.data-v-1f5f0c48 {
+  color: #db1f13 !important;
+}
+.list.data-v-1f5f0c48 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 30rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+  color: #333;
+}
+.list-title.data-v-1f5f0c48 {
+  font-size: 28rpx;
+  line-height: 88rpx;
+}
+.list-pic.data-v-1f5f0c48 {
+  display: none;
+  width: 28rpx;
+  height: 28rpx;
+}
+.active.data-v-1f5f0c48 {
+  background: #169af3;
+  color: #fff;
+}
+.active .list-pic.data-v-1f5f0c48 {
+  display: block;
+}
+.u-collapse-content .collapse-item.data-v-1f5f0c48  {
+  padding: 30rpx 0;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.audios-centent.data-v-1f5f0c48 {
+  padding: 0 40rpx;
+}
+.audios-centent-title.data-v-1f5f0c48 {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.audios-centent-box.data-v-1f5f0c48 {
+  padding-top: 34rpx;
+}
+.audios-centent-box-name.data-v-1f5f0c48 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.audios-centent-box-c.data-v-1f5f0c48 {
+  margin-left: 110rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.audios-centent-box-c-zw.data-v-1f5f0c48 {
+  padding-bottom: 30rpx;
+}
+.audios-foorter .lb-concent.data-v-1f5f0c48 {
+  padding-bottom: 22rpx;
+}
+.audios-foorter .lb-concent .collapse-item.data-v-1f5f0c48 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding-right: 52rpx;
+}
+.audios-foorter .lb-concent .collapse-item-img.data-v-1f5f0c48 {
+  width: 44rpx;
+  height: 42rpx;
+}
+.audios-foorter .lb-concent .collapse-item-img image.data-v-1f5f0c48 {
+  width: 100%;
+  height: 100%;
+}
+

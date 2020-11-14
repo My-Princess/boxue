@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "v-collapse": "/components/v-collapse/v-collapse",
+    "v-collapse-item": "/components/v-collapse-item/v-collapse-item",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  }
+}

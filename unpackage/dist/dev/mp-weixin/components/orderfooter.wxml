@@ -1,0 +1,1 @@
+<view class="orderfooter data-v-541297fe"><view class="orderfooter-left data-v-541297fe"><slot name="left"></slot></view><view data-event-opts="{{[['tap',[['footer',['$event']]]]]}}" class="orderfooter-right data-v-541297fe" style="{{('height:'+height+';border-radius:'+borderRadius)}}" bindtap="__e">{{''+title+''}}</view></view>

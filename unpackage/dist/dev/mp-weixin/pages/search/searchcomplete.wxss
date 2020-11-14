@@ -1,0 +1,92 @@
+.blank.data-v-6098c102 {
+  font-size: 28rpx;
+  text-align: center;
+  padding-top: 100rpx;
+}
+.complete-box-item.data-v-6098c102 {
+  padding: 0 40rpx;
+}
+.complete-tab-line.data-v-6098c102 {
+  width: 74rpx;
+  display: block;
+  position: absolute;
+  height: 4rpx;
+  margin-top: 9rpx;
+  background: #db1f13;
+  border-radius: 2px;
+}
+.complete-box.data-v-6098c102 {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  background: #fff;
+}
+.complete-tab.data-v-6098c102 {
+  height: 130rpx;
+  padding: 30rpx 0 0rpx 41rpx;
+}
+.complete-tab-title.data-v-6098c102 {
+  padding: 56rpx 0 0rpx 41rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.complete-tab-title-bx.data-v-6098c102 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  color: #666666;
+  margin-right: 53rpx;
+}
+.complete-tab-title-sp.data-v-6098c102 {
+  padding: 0 40rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.complete-tab-box-bx-item-right-bottom.data-v-6098c102 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+  padding-top: 26rpx;
+}
+.complete-tab-box-bx-item-right-bottom-l.data-v-6098c102 {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.complete-tab-box-bx-item-right-bottom-r.data-v-6098c102 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #db1f13;
+}
+.complete .hidden.data-v-6098c102 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.complete-concent.data-v-6098c102 {
+  padding-top: 260rpx;
+}
+.complete-concent .colorbold.data-v-6098c102 {
+  color: #333333;
+  font-weight: bold;
+}
+.complete-concent .colors.data-v-6098c102 {
+  color: #333333;
+  font-weight: bold;
+}
+.complete-concent-box.data-v-6098c102 {
+  padding: 56rpx 40rpx 0 40rpx;
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "人工翻译",
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker"
+  }
+}

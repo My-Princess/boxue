@@ -1,0 +1,96 @@
+.integralabout.data-v-ebd34094 {
+  padding-top: 40rpx;
+}
+.integralabout-title.data-v-ebd34094 {
+  padding-bottom: 23rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.integralabout-info-item.data-v-ebd34094:nth-last-child(-n+1) {
+  padding-bottom: 50rpx;
+}
+.integralabout-info-item.data-v-ebd34094 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-bottom: 38rpx;
+}
+.integralabout-info-item image.data-v-ebd34094 {
+  width: 324rpx;
+  height: 174rpx;
+  margin-right: 18rpx;
+}
+.integralabout-info-item-right.data-v-ebd34094 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding-top: 22rpx;
+  padding-bottom: 10rpx;
+}
+.integralabout-info-item-right-concent-title.data-v-ebd34094 {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  padding-bottom: 10rpx;
+}
+.integralabout-info-item-right-concent text.data-v-ebd34094 {
+  display: block;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.integralabout-info-item-right-text.data-v-ebd34094 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.integralabout-info-item-right-text text.data-v-ebd34094 {
+  font-family: PingFang SC;
+  font-weight: 500;
+}
+.integralabout-info-item-right-text-kc.data-v-ebd34094 {
+  font-size: 22rpx;
+  color: #666666;
+}
+.integralabout-info-item-right-text-jf.data-v-ebd34094 {
+  font-size: 28rpx;
+  color: #dc2a1f;
+}
+.integralabout-btn.data-v-ebd34094 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 80rpx;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  margin-bottom: 55rpx;
+}
+

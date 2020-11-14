@@ -1,0 +1,50 @@
+.clearfix.data-v-0de61367:after,
+.clearfix.data-v-0de61367:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-0de61367:after {
+  clear: both;
+}
+.activeColor.data-v-0de61367 {
+  color: #db1f13 !important;
+}
+view.data-v-0de61367,
+scroll-view.data-v-0de61367 {
+  box-sizing: border-box;
+}
+.data-v-0de61367::-webkit-scrollbar,.data-v-0de61367::-webkit-scrollbar,.data-v-0de61367::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+}
+.u-scroll-box.data-v-0de61367 {
+  position: relative;
+}
+.u-scroll-view.data-v-0de61367 {
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+}
+.u-tab-item.data-v-0de61367 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+}
+.u-tab-bar.data-v-0de61367 {
+  position: absolute;
+  bottom: 0;
+}
+.u-tabs-scorll-flex.data-v-0de61367 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+

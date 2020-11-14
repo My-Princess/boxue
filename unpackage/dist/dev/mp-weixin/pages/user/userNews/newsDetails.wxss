@@ -1,0 +1,15 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.newsDetails-c {
+  padding: 0 40rpx;
+}
+

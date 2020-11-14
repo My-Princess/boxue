@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "attention-list": "/components/AttentionList/AttentionList"
+  }
+}

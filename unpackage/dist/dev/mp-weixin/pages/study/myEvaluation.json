@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我要评价",
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-rate": "/node-modules/uview-ui/components/u-rate/u-rate"
+  }
+}

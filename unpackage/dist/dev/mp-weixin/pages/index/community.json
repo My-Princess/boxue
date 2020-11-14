@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "社区",
+  "usingComponents": {
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar",
+    "mescroll-item": "/pages/index/communityItem",
+    "active-item": "/pages/index/activeItem"
+  }
+}

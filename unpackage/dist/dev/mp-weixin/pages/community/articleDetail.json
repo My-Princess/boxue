@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "community-user-item": "/components/communityUser-Item/communityUser-Item",
+    "comment-user": "/components/CommentUser/CommentUser",
+    "comment": "/components/Comment/Comment"
+  }
+}

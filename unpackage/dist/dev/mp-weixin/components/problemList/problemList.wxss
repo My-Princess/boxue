@@ -1,0 +1,80 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.problemList {
+  padding: 0 40rpx;
+}
+.problemList-c {
+  padding-top: 14rpx;
+}
+.problemList-c-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.problemList-c-title image {
+  display: block;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.problemList-c-title-c {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 20rpx;
+}
+.problemList-c-title-c-name {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.problemList-c-title-c-time {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.problemList-c-c {
+  padding-top: 20rpx;
+  padding-left: 100rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.problemList-c-comment {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 20rpx;
+  margin-left: 100rpx;
+  width: 548rpx;
+  height: 65rpx;
+  background: #EEEEEE;
+  border-radius: 10px;
+}
+.problemList-c-comment-l {
+  padding-left: 30rpx;
+  color: #0058DD;
+  margin-right: 20rpx;
+}
+.problemList-c-comment-r {
+  padding-right: 20rpx;
+}
+

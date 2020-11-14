@@ -1,0 +1,27 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.walletRule-c {
+  padding: 0 40rpx;
+}
+.walletRule-c-name {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.walletRule-c text {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+

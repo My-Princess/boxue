@@ -1,0 +1,63 @@
+.addressinfo .addressinfo-concent.data-v-3e20a338 {
+  margin-bottom: 98rpx;
+}
+.addressinfo-item.data-v-3e20a338 {
+  margin: 0 40rpx;
+  padding: 34rpx 0rpx 30rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.addressinfo-item-text-top.data-v-3e20a338 {
+  margin-bottom: 14rpx;
+}
+.addressinfo-item-text-top-default.data-v-3e20a338 {
+  margin-right: 20rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #db291f;
+}
+.addressinfo-item-text-top-name.data-v-3e20a338 {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+  margin-right: 42rpx;
+}
+.addressinfo-item-text-top-number.data-v-3e20a338 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+}
+.addressinfo-item-text-bottom.data-v-3e20a338 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.addressinfo-item image.data-v-3e20a338 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 32rpx;
+  height: 34rpx;
+}
+.addressinfo-item.data-v-3e20a338:first-child {
+  padding-top: 0rpx;
+}
+

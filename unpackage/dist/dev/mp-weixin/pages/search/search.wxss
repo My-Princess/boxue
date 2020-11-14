@@ -1,0 +1,117 @@
+.search-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding-top: 53rpx;
+}
+.search-top-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 595rpx;
+  height: 60rpx;
+  background: #ffffff;
+  border: 1rpx solid #eeeeee;
+  border-radius: 30rpx;
+}
+.search-top-left image {
+  display: block;
+  width: 44rpx;
+  height: 44rpx;
+  margin-left: 30rpx;
+  margin-right: 16rpx;
+}
+.search-top-left image ._img {
+  width: 44rpx;
+  height: 44rpx;
+}
+.search-top-left input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.search-top-qx {
+  line-height: 60rpx;
+  margin-left: 20rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.search-tip {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  padding-top: 53rpx;
+  padding-bottom: 5rpx;
+}
+.search-record {
+  margin-top: 48rpx;
+}
+.search-record-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 40rpx;
+}
+.search-record-title-name {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.search-record-title-del {
+  width: 44rpx;
+  height: 42rpx;
+}
+.search-record-title-del image {
+  width: 100%;
+  height: 100%;
+}
+.search-record-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-top: 12rpx;
+  padding-left: 40rpx;
+  padding-right: 14rpx;
+}
+.search-record-list-box {
+  padding: 18rpx 41rpx;
+  background: #ffffff;
+  border: 1px solid #7d7d7d;
+  border-radius: 30rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  margin-right: 26rpx;
+  margin-top: 14rpx;
+  margin-bottom: 14rpx;
+}
+.search-culum {
+  padding-top: 42rpx;
+}
+

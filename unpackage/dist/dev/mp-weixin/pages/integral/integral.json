@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "积分商城",
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "integral-list": "/components/integrallist",
+    "integral-about": "/components/integralabout"
+  }
+}

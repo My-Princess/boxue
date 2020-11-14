@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "collect-list": "/components/collectList/collectList"
+  }
+}

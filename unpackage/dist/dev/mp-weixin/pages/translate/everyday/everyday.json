@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "日常快译",
+  "usingComponents": {
+    "head": "/components/Head/Head"
+  }
+}

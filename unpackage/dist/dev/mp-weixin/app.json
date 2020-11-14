@@ -1,0 +1,213 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/study",
+    "pages/index/community",
+    "pages/index/user",
+    "pages/index/course",
+    "pages/order/orderdetails",
+    "pages/index/CourseDefails",
+    "pages/index/video"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/community/",
+      "pages": [
+        "communityDetail",
+        "postcomment",
+        "imgDetail",
+        "articleDetail"
+      ]
+    },
+    {
+      "root": "pages/group/",
+      "pages": [
+        "group",
+        "groupsuccess",
+        "league"
+      ]
+    },
+    {
+      "root": "pages/integral/",
+      "pages": [
+        "integral",
+        "pointsdetails",
+        "confirmOrder",
+        "filladdress",
+        "addressinfo",
+        "dhcompleted",
+        "dhrecord",
+        "integralrule",
+        "virtualdetails",
+        "editAddress"
+      ]
+    },
+    {
+      "root": "pages/login/",
+      "pages": [
+        "login",
+        "message",
+        "register",
+        "wxlogin",
+        "passwordlogin",
+        "areacode",
+        "agreement",
+        "changePwd"
+      ]
+    },
+    {
+      "root": "pages/questionbank/",
+      "pages": [
+        "chapter",
+        "topic",
+        "download",
+        "practice",
+        "userid",
+        "mistakes",
+        "wrongdetails",
+        "achievement",
+        "collect",
+        "challenge",
+        "collectTopic"
+      ]
+    },
+    {
+      "root": "pages/search/",
+      "pages": [
+        "search",
+        "searchcomplete"
+      ]
+    },
+    {
+      "root": "pages/service/",
+      "pages": [
+        "index",
+        "aiservice",
+        "manual",
+        "commonproble",
+        "feedback",
+        "instructor",
+        "helpDetail"
+      ]
+    },
+    {
+      "root": "pages/study/",
+      "pages": [
+        "videoviewing",
+        "frequency",
+        "audios",
+        "task",
+        "webView",
+        "myEvaluation",
+        "Evaluationsuccess",
+        "Myquestion"
+      ]
+    },
+    {
+      "root": "pages/translate/",
+      "pages": [
+        "everyday/everyday",
+        "translate",
+        "artificial/artificial",
+        "everyday/paySuccess",
+        "artificial/successful",
+        "historyOrder/historyOrder",
+        "historyOrder/historydefault",
+        "historyOrder/submitRate",
+        "immediate/immediate",
+        "everyday/everydayDefault",
+        "everyday/selectlanguage"
+      ]
+    },
+    {
+      "root": "pages/user/",
+      "pages": [
+        "userSet",
+        "userSet/userInfo",
+        "userSet/userNickname",
+        "userSet/userBrief",
+        "userSet/userAccount",
+        "userSet/userPrivacy",
+        "userSet/userhelp",
+        "userSet/userAboutUs",
+        "news",
+        "userNews/newsDetails",
+        "userNews/replyDetails",
+        "userNews/praiseList",
+        "mycourses",
+        "myTask",
+        "myTeacher",
+        "myTeacher/teacherDetail",
+        "myTeacher/teacherComment",
+        "coupon",
+        "myWallet/myWallet",
+        "myWallet/withdraw",
+        "myWallet/withdrawResult",
+        "myIntegral",
+        "myWallet/walletRule",
+        "myOrder/myOrder",
+        "myOrder/orderDetails",
+        "myleague/myleague",
+        "myleague/leagueDetail",
+        "exchange/exchange",
+        "myFocus",
+        "myHome/myHome",
+        "exchange/SelectCountry",
+        "myOrder/everyday",
+        "myOrder/artificial",
+        "userSet/userCity",
+        "mycertificate"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "博学教育",
+    "navigationBarBackgroundColor": "#333",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#8a8a8a",
+    "selectedColor": "#00aa00",
+    "borderStyle": "black",
+    "backgroundColor": "rgba(255,255,255,1)",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/sy.png",
+        "selectedIconPath": "static/img/syxz.png"
+      },
+      {
+        "pagePath": "pages/index/study",
+        "text": "学习",
+        "iconPath": "static/img/xx.png",
+        "selectedIconPath": "static/img/xxxz.png"
+      },
+      {
+        "pagePath": "pages/index/course",
+        "iconPath": "static/img/kcicon.png",
+        "selectedIconPath": "static/img/kcicon.png"
+      },
+      {
+        "pagePath": "pages/index/community",
+        "text": "社区",
+        "iconPath": "static/img/sq.png",
+        "selectedIconPath": "static/img/sqxz.png"
+      },
+      {
+        "pagePath": "pages/index/user",
+        "text": "我的",
+        "iconPath": "static/img/user.png",
+        "selectedIconPath": "static/img/userxz.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body"
+  },
+  "sitemapLocation": "sitemap24.json"
+}

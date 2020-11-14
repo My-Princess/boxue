@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-parse": "/components/gaoyia-parse/parse",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

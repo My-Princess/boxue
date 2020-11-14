@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-upload": "/node-modules/uview-ui/components/u-upload/u-upload",
+    "easy-upload": "/components/easy-upload/easy-upload",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup"
+  }
+}

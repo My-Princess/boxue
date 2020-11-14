@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "user-head": "/components/userHead/userHead",
+    "v-tabs": "/components/v-tabs/v-tabs",
+    "community-user-item": "/components/communityUser-Item/communityUser-Item",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

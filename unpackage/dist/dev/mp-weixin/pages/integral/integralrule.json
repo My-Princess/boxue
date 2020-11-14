@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "积分规则",
+  "usingComponents": {
+    "head": "/components/Head/Head"
+  }
+}

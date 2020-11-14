@@ -1,0 +1,100 @@
+.clearfix.data-v-28c76618:after,
+.clearfix.data-v-28c76618:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-28c76618:after {
+  clear: both;
+}
+.activeColor.data-v-28c76618 {
+  color: #db1f13 !important;
+}
+.rowhidden.data-v-28c76618 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
+.articleitem-c.data-v-28c76618 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.articleitem-l-t.data-v-28c76618 {
+  margin-top: 30rpx;
+  margin-bottom: 24rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #343434;
+}
+.articleitem-l-b.data-v-28c76618 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.articleitem-l-b-title.data-v-28c76618 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.articleitem-l-b-dz.data-v-28c76618 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-right: 28rpx;
+}
+.articleitem-l-b-dz image.data-v-28c76618 {
+  width: 44rpx;
+  height: 40rpx;
+}
+.articleitem-l-b-dz text.data-v-28c76618 {
+  margin-left: 8rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.articleitem-l-b-pl.data-v-28c76618 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.articleitem-l-b-pl image.data-v-28c76618 {
+  width: 44rpx;
+  height: 40rpx;
+}
+.articleitem-l-b-pl text.data-v-28c76618 {
+  margin-left: 8rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.articleitem-title.data-v-28c76618 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+

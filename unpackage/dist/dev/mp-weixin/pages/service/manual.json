@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "操作手册",
+  "usingComponents": {
+    "head": "/components/Head/Head"
+  }
+}

@@ -1,0 +1,90 @@
+.filladdress-picker.data-v-3c03ea27 .u-picker__title {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.filladdress-picker.data-v-3c03ea27 .u-picker-view {
+  margin-top: -150rpx;
+}
+.filladdress-switch.data-v-3c03ea27 {
+  margin-top: 30rpx;
+  padding: 0 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.filladdress-switch-txt.data-v-3c03ea27 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.filladdress-from.data-v-3c03ea27 {
+  margin: 0 40rpx;
+  padding-bottom: 178rpx;
+  border-bottom: 1rpx solid #EDEDED;
+}
+.filladdress-from-item.data-v-3c03ea27:nth-child(1) {
+  padding-top: 0;
+}
+.filladdress-from-item.data-v-3c03ea27:last-child {
+  border-bottom: none;
+}
+.filladdress-from-item.data-v-3c03ea27 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.filladdress-from-item-name.data-v-3c03ea27 {
+  width: 180rpx;
+  text-align: left;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.filladdress-from-item input.data-v-3c03ea27::-webkit-input-placeholder {
+  color: #999999;
+}
+.filladdress-from-item input.data-v-3c03ea27::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999999;
+}
+.filladdress-from-item input.data-v-3c03ea27:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999999;
+}
+.filladdress-from-item input.data-v-3c03ea27:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999999;
+}
+.filladdress-from-item input.data-v-3c03ea27 {
+  width: 90%;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.filladdress-from-item image.data-v-3c03ea27 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 17rpx;
+  height: 32rpx;
+}
+

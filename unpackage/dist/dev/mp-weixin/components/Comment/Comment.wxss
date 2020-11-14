@@ -1,0 +1,114 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.comment-centent-txt {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+.comment-centent-txt-actvte {
+  color: red;
+  margin-right: 20rpx;
+}
+.comment-centent-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.comment-centent-footer-time {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.comment-centent-footer-dz {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-right: 50rpx;
+}
+.comment-centent-footer-dz image {
+  width: 32rpx;
+  height: 28rpx;
+}
+.comment-centent-footer-dz text {
+  margin-left: 8rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.comment-centent-footer-pl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.comment-centent-footer-pl image {
+  width: 32rpx;
+  height: 32rpx;
+}
+.comment-centent-footer-pl text {
+  margin-left: 8rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.comment-box {
+  margin-top: 20rpx;
+  padding: 20rpx 22rpx 20rpx 30rpx;
+  background: #eeeeee;
+  border-radius: 10px;
+}
+.comment-box-list {
+  margin-bottom: 6rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.comment-box-list-name {
+  font-size: 28rpx;
+  color: #0058DD;
+  font-family: PingFang SC;
+  font-weight: 500;
+}
+.comment-box-list-name text {
+  color: #333333;
+}
+.comment-box-list-c {
+  margin-left: 12rpx;
+  font-size: 28rpx;
+  color: #080808;
+  font-family: PingFang SC;
+  font-weight: 500;
+}
+

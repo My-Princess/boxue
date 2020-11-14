@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "groupbox": "/components/Groupbox/Groupbox",
+    "u-switch": "/node-modules/uview-ui/components/u-switch/u-switch",
+    "group-footer": "/components/GroupFooter/GroupFooter",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u-checkbox-group": "/node-modules/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/node-modules/uview-ui/components/u-checkbox/u-checkbox"
+  }
+}

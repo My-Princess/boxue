@@ -1,0 +1,53 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.paySuccess-c {
+  margin-top: 70rpx;
+  padding: 0 40rpx;
+}
+.paySuccess-c image {
+  display: block;
+  width: 195rpx;
+  height: 195rpx;
+  margin: auto;
+}
+.paySuccess-c-title {
+  text-align: center;
+}
+.paySuccess-c-title-name {
+  padding-top: 48rpx;
+  padding-bottom: 30rpx;
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.paySuccess-c-title-txt {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.paySuccess-c-c-name {
+  padding-top: 80rpx;
+  padding-bottom: 38rpx;
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #656565;
+}
+.paySuccess-c-c-txt {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+

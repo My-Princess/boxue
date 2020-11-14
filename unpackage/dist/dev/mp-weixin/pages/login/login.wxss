@@ -1,0 +1,321 @@
+input {
+  background: transparent !important;
+}
+.getPhone {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: none;
+}
+.input::-webkit-input-placeholder {
+  color: #cacacaff !important;
+}
+.input:-moz-placeholder {
+  color: #cacacaff !important;
+}
+.input:-ms-input-placeholder {
+  color: #cacacaff !important;
+}
+.cahngeColor {
+  background: #dc2a1f !important;
+  color: #ffffff !important;
+}
+ input[type='text'],
+input[type='password'] {
+  width: 100%;
+  border: none;
+}
+input[type='password'] {
+  border: none;
+  padding: 0;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+.wxlogin {
+  /* padding-top: 150rpx; */
+  /* padding-bottom: 122rpx; */
+  padding: 20% 40rpx 0rpx;
+  height: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.wxlogin-logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.wxlogin-logo image {
+  width: 152rpx;
+  height: 152rpx;
+}
+.wxlogin-phone {
+  width: 588rpx;
+  /* width: 100%; */
+  margin: 0 auto;
+  padding: 80rpx 0 20rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.wxlogin-phone-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.wxlogin-phone-left-size {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.wxlogin-phone-left .icon-xiajiantou {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 42rpx;
+  font-weight: bold;
+}
+.wxlogin-phone .wxlogin-content {
+  padding-left: 13rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.wxlogin-line {
+  width: 588rpx;
+  height: 1px;
+  background: #eeeeee;
+  border-radius: 1px;
+  margin: 0 auto;
+}
+.wxlogin-yzm {
+  width: 588rpx;
+  padding: 65rpx 0rpx 20rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+.wxlogin-yzm input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-left: 13rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666ff;
+}
+.wxlogin-yzm-hq text {
+  padding-left: 20rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.wxlogin-pws {
+  width: 588rpx;
+  /* width: 100%; */
+  padding: 65rpx 0rpx 20rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+.wxlogin-pws input {
+  display: block;
+  width: 100%;
+  border: none !important;
+  padding-left: 13rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+input::-webkit-input-placeholder {
+  color: #cacaca;
+}
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #cacaca;
+}
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #cacaca;
+}
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #cacaca;
+}
+.wxlogin-pws-icon {
+  margin-right: 15rpx;
+  width: 50rpx;
+  height: 40rpx;
+}
+.wxlogin-pws-icon image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wxlogin-wxlogin {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding-top: 70rpx;
+}
+.wxlogin-wxlogin .wxlogin-btn {
+  width: 570rpx;
+  height: 90rpx;
+  background: #eeeeee;
+  border-radius: 45px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 36rpx;
+  color: #999999;
+}
+.wxlogin-btn text {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+}
+.cahngeColor {
+  background: #dc2a1f;
+  color: #ffffff;
+}
+.wxlogin-info {
+  width: 495rpx;
+  height: 25rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 113rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: auto;
+  margin-left: 90rpx;
+}
+.wxlogin-info-right {
+  text-align: right;
+  color: #1879e5;
+}
+.wxlogin-other {
+  padding-top: 25%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.wxlogin-other text {
+  text-align: center;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.wxlogin-imgbtn {
+  padding-top: 29rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  /* flex-direction: column; */
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.wxlogin-imgbtn image {
+  width: 84rpx;
+  height: 84rpx;
+  /* margin: auto; */
+}
+.wxlogin-imgbtn-wx {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  /* padding-right: 39rpx; */
+}
+.showPhone {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 84rpx;
+  height: 84rpx;
+  background: transparent;
+}
+button::after {
+  border: none !important;
+}
+.wxlogin-imgbtn-st {
+  padding-left: 39rpx;
+}
+.wxlogin-register {
+  text-align: right;
+  padding-top: 30rpx;
+  padding-right: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #db1f13;
+}
+.wxlogin-imgbtn-l {
+  position: relative;
+  width: 160rpx;
+  /* background: red; */
+}
+.wxlogin-imgbtn-r {
+  width: 160rpx;
+  /* background: red; */
+}
+.wxlogin-imgbtn-name {
+  text-align: center;
+  font-size: 26rpx;
+}
+.loginWx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160rpx;
+  height: 120rpx;
+  background: transparent;
+}
+

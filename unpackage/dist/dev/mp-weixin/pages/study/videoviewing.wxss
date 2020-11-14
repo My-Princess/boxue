@@ -1,0 +1,235 @@
+.shareImg {
+  position: absolute;
+  width: 42rpx;
+  height: 42rpx;
+  background: transparent;
+}
+.student-item {
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.problemList-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.problemList-head-name {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.problemList-head-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 156rpx;
+  height: 55rpx;
+  background: -webkit-linear-gradient(65deg, #db1f13 0%, #ff473b 100%);
+  background: linear-gradient(25deg, #db1f13 0%, #ff473b 100%);
+  border-radius: 28px;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+}
+.share-Box-title {
+  text-align: center;
+  padding: 30rpx 0;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.share-Box .share-cancel {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.share-Box .share-scroll .share-scroll-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #999;
+}
+.share-Box .share-scroll-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin: 0 40rpx;
+}
+.share-Box .share-scroll-item image {
+  display: block;
+  width: 82rpx;
+  height: 82rpx;
+}
+.share-Box .share-scroll-item-name {
+  padding-top: 10rpx;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.orderfooter .orderfooter-left {
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #db1f13;
+}
+.u-collapse-content .collapse-item {
+  padding: 30rpx 0;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.u-collapse-content .collapse-item .collapse-item-title {
+  width: 92%;
+}
+.videoviewing-top-video {
+  width: 100%;
+  height: 420rpx;
+}
+.videoviewing-top-video-img {
+  width: 100%;
+  height: 420rpx;
+  position: relative;
+}
+.videoviewing-top-video-img .icon-zuojiantou {
+  position: absolute;
+  top: 4px;
+  left: 5rpx;
+  color: #ffffff;
+  font-size: 50rpx;
+  z-index: 99;
+}
+.videoviewing-top-video-img image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.videoviewing-top-video-v {
+  width: 100%;
+  height: 420rpx;
+}
+.videoviewing-top-video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.videoviewing-top-text {
+  padding: 30rpx 40rpx 20rpx 40rpx;
+}
+.videoviewing-top-text-title {
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.videoviewing-top-text-txt {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.videoviewing-top-b {
+  padding: 0 40rpx;
+  padding-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.videoviewing-top-b-l {
+  width: 42rpx;
+  height: 42rpx;
+  margin-right: 38rpx;
+}
+.videoviewing-top-b-l image {
+  width: 100%;
+  height: 100%;
+}
+.videoviewing-top-b-r {
+  width: 42rpx;
+  height: 42rpx;
+  position: relative;
+}
+.videoviewing-top-b-r image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.videoviewing-line {
+  height: 6rpx;
+  background: #eeeeee;
+}
+.videoviewing-concent {
+  margin-bottom: 98rpx;
+}
+.videoviewing-concent-line {
+  height: 1rpx;
+  background: #eeeeee;
+}
+.videoviewing-concent-tab {
+  border: 1rpx solid #eeeeee;
+  margin-bottom: 20rpx;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+}
+.videoviewing-concent-box1-img {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 667rpx;
+  height: 570rpx;
+}
+.videoviewing-concent-box2 .collapse-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.videoviewing-concent-box2 .collapse-item-img {
+  width: 36rpx;
+  height: 44rpx;
+}
+.videoviewing-concent-box2 .collapse-item-img image {
+  width: 100%;
+  height: 100%;
+}
+

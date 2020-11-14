@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "sy-video": "/components/shoyu-video/shoyu-video"
+  }
+}

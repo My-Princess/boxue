@@ -1,0 +1,43 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.translate-c {
+  padding: 0rpx 55rpx 30rpx;
+}
+.translate-c-everyday {
+  width: 100%;
+  height: 345rpx;
+  margin-bottom: 15rpx;
+}
+.translate-c-everyday image {
+  width: 100%;
+  height: 100%;
+}
+.translate-c-artificial {
+  width: 100%;
+  height: 345rpx;
+  margin-bottom: 15rpx;
+}
+.translate-c-artificial image {
+  width: 100%;
+  height: 100%;
+}
+.translate-foorter {
+  text-align: center;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666;
+}
+.translate-foorter text:nth-child(1) {
+  margin-right: 60rpx;
+}
+

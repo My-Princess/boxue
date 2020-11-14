@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "money-list": "/components/MoneyList/MoneyList",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

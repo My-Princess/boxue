@@ -1,0 +1,120 @@
+@charset "UTF-8";
+.clearfix.data-v-5ed3214e:after,
+.clearfix.data-v-5ed3214e:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-5ed3214e:after {
+  clear: both;
+}
+.activeColor.data-v-5ed3214e {
+  color: #db1f13 !important;
+}
+.index-item.data-v-5ed3214e {
+  padding: 0 41rpx 56rpx 40rpx;
+}
+.index-item-title.data-v-5ed3214e {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.index-item-title-l.data-v-5ed3214e {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  padding-bottom: 25rpx;
+}
+.index-item-title-r.data-v-5ed3214e {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.index-item-box.data-v-5ed3214e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.index-item-box-info image.data-v-5ed3214e {
+  width: 325rpx;
+  height: 193rpx;
+  background: #eeeeee;
+  border-radius: 10px;
+  vertical-align: bottom;
+}
+.index-item-box-info-centent.data-v-5ed3214e {
+  width: 325rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 22rpx 0 15rpx;
+}
+.index-item-box-info-centent text.data-v-5ed3214e {
+  width: 190rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+  white-space: nowrap;
+  /* 规定文本是否折行 */
+  overflow: hidden;
+  /* 规定超出内容宽度的元素隐藏 */
+  text-overflow: ellipsis;
+}
+.index-item-box-info-centent ._span.data-v-5ed3214e {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ff2c50;
+}
+.index-item-box-info-text.data-v-5ed3214e {
+  padding-bottom: 38rpx;
+  width: 295rpx;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  white-space: nowrap;
+  /* 规定文本是否折行 */
+  overflow: hidden;
+  /* 规定超出内容宽度的元素隐藏 */
+  text-overflow: ellipsis;
+}
+.index-item-box-info.data-v-5ed3214e:nth-child(2n) {
+  margin-left: 19rpx;
+}
+.index-item-box-info:nth-child(n + 3) .index-item-box-info-text.data-v-5ed3214e {
+  padding-bottom: 40rpx;
+}
+.index-light.data-v-5ed3214e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.index-light-line.data-v-5ed3214e {
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  background: #eeeeee;
+  margin-right: 16rpx;
+}
+.index-light-line.data-v-5ed3214e:nth-child(3) {
+  margin-right: 0rpx;
+}
+.index-light .classline.data-v-5ed3214e {
+  background: #dc2a1f;
+}
+

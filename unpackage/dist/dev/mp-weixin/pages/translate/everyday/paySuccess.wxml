@@ -1,0 +1,3 @@
+<view class="paySuccess"><head vue-id="24e7d332-1" title="{{translate.paysucceed}}" data-event-opts="{{[['^navigateBack',[['navigateBack']]]]}}" bind:navigateBack="__e" bind:__l="__l"></head><view class="paySuccess-c"><image src="https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/dhwc.png" mode></image><view class="paySuccess-c-title"><view class="paySuccess-c-title-name">{{''+translate.paysucceed+''}}</view><view class="paySuccess-c-title-txt">{{''+translate.translateTip+''}}</view></view><view class="paySuccess-c-c"><view class="paySuccess-c-c-name">{{''+translate.staytranslate+'：'}}</view><view class="paySuccess-c-c-txt">据悉，双节假期，北京游客接待量、旅游总收入实
+				现了同比双增长，登双节热门旅游城市榜首。外省
+				来京游407.4万人次，较去年假期增长5.4%。</view></view></view></view>

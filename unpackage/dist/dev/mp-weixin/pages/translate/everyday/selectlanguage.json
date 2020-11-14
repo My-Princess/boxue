@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "请选择语言",
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "search": "/components/searchs"
+  }
+}

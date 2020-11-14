@@ -1,0 +1,112 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.community-concent-item-video uni-video {
+  width: 100% !important;
+  height: 100% !important;
+}
+.community-concent-item-img {
+  width: 547rpx;
+  height: 289rpx;
+  margin-top: 30rpx;
+}
+.community-concent-item-img image {
+  width: 100%;
+  height: 100%;
+}
+.community-concent-item-video {
+  margin-top: 30rpx;
+  width: 547rpx;
+  height: 289rpx;
+}
+.communitydetails-c {
+  padding: 0 40rpx;
+}
+.communitydetails-comment {
+  position: relative;
+  margin-top: 55rpx;
+  padding: 0 40rpx;
+  margin-bottom: 4rpx;
+}
+.communitydetails-comment-title {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.communitydetails-comment-title text:last-child {
+  margin-left: 10rpx;
+}
+.communitydetails-comment-c-item {
+  margin-top: 30rpx;
+}
+.communitydetails-comment-cc {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  margin-top: 80rpx;
+  padding-bottom: 200rpx;
+  text-align: center;
+}
+.communitydetails-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 0 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 98rpx;
+  background: white;
+  box-shadow: 0 0 12px 0 #EEEEEE;
+}
+.communitydetails-footer input {
+  padding: 0 30rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 70rpx;
+  background: white;
+  border: 1px solid #eeeeee;
+  border-radius: 35px;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.communitydetails-footer input::-webkit-input-placeholder {
+  color: #999999;
+}
+.communitydetails-footer input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999999;
+}
+.communitydetails-footer input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999999;
+}
+.communitydetails-footer input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999999;
+}
+.communitydetails-footer text {
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+

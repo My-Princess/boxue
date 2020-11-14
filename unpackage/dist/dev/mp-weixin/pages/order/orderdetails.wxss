@@ -1,0 +1,181 @@
+.lee-logistics-btn.data-v-48d2860e {
+  margin-top: 70rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.lee-logistics-list.data-v-48d2860e {
+  position: relative;
+  padding: 45rpx 35rpx 38rpx 45rpx;
+  border-radius: 8rpx;
+  box-shadow: 0 0 2rpx rgba(0, 0, 0, 0.15);
+  height: 600rpx;
+  overflow: hidden;
+}
+.lee-logistics-msg.data-v-48d2860e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.lee-logistics-msg-time.data-v-48d2860e {
+  width: 170rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding-right: 32rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.lee-logistics-msg-context.data-v-48d2860e {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  width: 0;
+  padding-left: 36rpx;
+  margin-bottom: 68rpx;
+  position: relative;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 40rpx;
+}
+.lee-logistics-msg-context-flex.data-v-48d2860e {
+  position: absolute;
+  top: 70rpx;
+  left: 215rpx;
+}
+.lee-logistics-msg-context image.data-v-48d2860e {
+  display: block;
+  width: 42rpx;
+  height: 42rpx;
+  background: #999999;
+  border-radius: 21px;
+  position: absolute;
+  top: 50%;
+  left: -22rpx;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.ishow.data-v-48d2860e {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+.orderdetails.data-v-48d2860e {
+  position: relative;
+}
+.orderdetails-info.data-v-48d2860e {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.orderdetails-info-box.data-v-48d2860e {
+  margin-bottom: 58rpx;
+  width: 672rpx;
+  height: 942rpx;
+  background: #ffffff;
+  border-radius: 10rpx;
+}
+.orderdetails-info-box-top.data-v-48d2860e {
+  width: 672rpx;
+  height: 332rpx;
+  background: -webkit-linear-gradient(bottom, #dc2a1f 0%, #f3584e 100%);
+  background: linear-gradient(0deg, #dc2a1f 0%, #f3584e 100%);
+}
+.orderdetails-info-box-top-title.data-v-48d2860e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 37rpx 0;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ffffff;
+}
+.orderdetails-info-box-top-concent.data-v-48d2860e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 30rpx;
+}
+.orderdetails-info-box-top-concent image.data-v-48d2860e {
+  width: 230rpx;
+  height: 180rpx;
+  border-radius: 10px;
+}
+.orderdetails-info-box-top-concent-r.data-v-48d2860e {
+  margin-left: 30rpx;
+  padding: 6rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.orderdetails-info-box-top-concent-r-t-name.data-v-48d2860e {
+  padding-bottom: 12rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #ffffff;
+}
+.orderdetails-info-box-top-concent-r-t-text.data-v-48d2860e {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #eeeeee;
+}
+.orderdetails-info-box-top-concent-r-b.data-v-48d2860e {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+}
+.orderdetails-info-close.data-v-48d2860e {
+  width: 80rpx;
+  height: 80rpx;
+  border: 3rpx solid #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-80rpx);
+          transform: translateX(-80rpx);
+  left: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.orderdetails-info-close image.data-v-48d2860e {
+  width: 34rpx;
+  height: 35rpx;
+  border-radius: 2px;
+}
+

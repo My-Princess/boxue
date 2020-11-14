@@ -1,0 +1,129 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.group-League-item {
+  padding-top: 30rpx;
+  padding-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.group-League-item-img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 160rpx;
+  height: 76rpx;
+  position: relative;
+}
+.group-League-item-img image:first-child {
+  position: absolute;
+  left: 0;
+}
+.group-League-item-img image {
+  display: block;
+  position: absolute;
+  left: 40rpx;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+.group-League-item-img image:last-child {
+  left: 80rpx;
+}
+.group-League-item-c {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding-right: 15rpx;
+}
+.group-League-item-c-t {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.group-League-item-c-t-l {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.group-League-item-c-t-l text {
+  color: #dc2a1f;
+}
+.group-League-item-c-t-r {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.group-League-item-c-t-r text {
+  color: #dc2a1fff;
+}
+.group-League-item-c-b {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.group-League-item-c-b-l {
+  text-align: right;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #cbcbcb;
+  text-decoration: line-through;
+}
+.group-League-item-c-b-r {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #dc2a1f;
+}
+.group-League-item-btn {
+  position: relative;
+  right: 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 90rpx;
+  height: 40rpx;
+  background: #dc2a1f;
+  border-radius: 20px;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: white;
+}
+

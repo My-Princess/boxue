@@ -1,0 +1,233 @@
+.clearfix.data-v-21bf4c21:after,
+.clearfix.data-v-21bf4c21:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-21bf4c21:after {
+  clear: both;
+}
+.activeColor.data-v-21bf4c21 {
+  color: #db1f13 !important;
+}
+.user-size.data-v-21bf4c21 {
+  font-size: 38rpx;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.user.data-v-21bf4c21 {
+  position: relative;
+}
+.user-box.data-v-21bf4c21 {
+  height: 470rpx;
+  background: url(https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/userImg.png) no-repeat;
+  background-size: 100% 470rpx;
+  padding: 0 40rpx;
+}
+.user-box-set.data-v-21bf4c21 {
+  padding-top: 32rpx;
+  padding-bottom: 42rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.user-box-set-set.data-v-21bf4c21 {
+  width: 42rpx;
+  height: 40rpx;
+}
+.user-box-set-set image.data-v-21bf4c21 {
+  width: 100%;
+  height: 100%;
+}
+.user-box-set-news.data-v-21bf4c21 {
+  width: 42rpx;
+  height: 40rpx;
+  margin-left: 40rpx;
+}
+.user-box-set-news image.data-v-21bf4c21 {
+  width: 100%;
+  height: 100%;
+}
+.user-box-user.data-v-21bf4c21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.user-box-user image.data-v-21bf4c21 {
+  display: block;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60px;
+}
+.user-box-user-r.data-v-21bf4c21 {
+  margin-left: 30rpx;
+  font-family: PingFang SC;
+}
+.user-box-user-r-name.data-v-21bf4c21 {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  width: 500rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #ffffff;
+}
+.user-box-user-r-txt.data-v-21bf4c21 {
+  width: 348rpx;
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #ebdcdc;
+}
+.user-box-user-r-medal.data-v-21bf4c21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 16rpx;
+}
+.user-box-user-r-medal-item.data-v-21bf4c21 {
+  margin-right: 18rpx;
+  width: 42rpx;
+  height: 40rpx;
+}
+.user-box-user-r-medal-item image.data-v-21bf4c21 {
+  width: 100%;
+  height: 100%;
+}
+.user-box-info.data-v-21bf4c21 {
+  padding-top: 34rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.user-box-info-item.data-v-21bf4c21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.user-box-info-item text.data-v-21bf4c21 {
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+}
+.user-box-info-item text.data-v-21bf4c21:nth-child(1) {
+  font-size: 48rpx;
+}
+.user-box-info-item text.data-v-21bf4c21:nth-child(2) {
+  font-size: 28rpx;
+}
+.user-concent.data-v-21bf4c21 {
+  position: relative;
+  width: 100%;
+  top: -30rpx;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  padding-top: 40rpx;
+}
+.user-concent .user-concent-box.data-v-21bf4c21 {
+  padding-bottom: 80rpx;
+}
+.user-concent-name.data-v-21bf4c21 {
+  padding: 0 40rpx;
+  padding-bottom: 40rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #343434;
+}
+.user-concent-c.data-v-21bf4c21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.user-concent-c-item.data-v-21bf4c21:nth-child(-n+3) {
+  padding-bottom: 30rpx;
+}
+.user-concent-c-item.data-v-21bf4c21 {
+  width: 33.3%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.user-concent-c-item image.data-v-21bf4c21 {
+  display: block;
+  width: 82rpx;
+  height: 82rpx;
+}
+.user-concent-c-item-name.data-v-21bf4c21 {
+  padding-top: 16rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #343434;
+}
+.user-concent-box1.data-v-21bf4c21 {
+  padding-bottom: 80rpx;
+}
+.user-concent-box1-name.data-v-21bf4c21 {
+  padding: 0 40rpx;
+  padding-bottom: 40rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #343434;
+}
+.user-concent-box1-c.data-v-21bf4c21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.user-concent-box1-c-item.data-v-21bf4c21:nth-last-child(-n + 2) {
+  margin-bottom: 0rpx;
+}
+.user-concent-box1-c-item.data-v-21bf4c21 {
+  margin-bottom: 48rpx;
+  width: 25%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.user-concent-box1-c-item image.data-v-21bf4c21 {
+  display: block;
+  width: 60rpx;
+  height: 60rpx;
+}
+.user-concent-box1-c-item .user-item-name.data-v-21bf4c21 {
+  padding-top: 16rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #343434;
+}
+

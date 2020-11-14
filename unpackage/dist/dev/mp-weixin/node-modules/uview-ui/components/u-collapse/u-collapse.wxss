@@ -1,0 +1,12 @@
+.clearfix.data-v-e7ce28f2:after,
+.clearfix.data-v-e7ce28f2:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-e7ce28f2:after {
+  clear: both;
+}
+.activeColor.data-v-e7ce28f2 {
+  color: #db1f13 !important;
+}
+

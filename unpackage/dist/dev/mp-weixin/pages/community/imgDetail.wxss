@@ -1,0 +1,20 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+ .integral-top {
+  color: #FFFFFF !important;
+}
+.imgDetail {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+}
+

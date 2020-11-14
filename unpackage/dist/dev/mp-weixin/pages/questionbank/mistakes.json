@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "collapse-box": "/components/Collapse-box/Collapse-box"
+  }
+}

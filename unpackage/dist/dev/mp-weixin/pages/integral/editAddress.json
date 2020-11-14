@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "填写收货信息",
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-switch": "/node-modules/uview-ui/components/u-switch/u-switch",
+    "footerbtn": "/components/footerbtn/footerbtn",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

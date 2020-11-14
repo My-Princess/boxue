@@ -1,0 +1,145 @@
+.message {
+  padding-top: 233rpx;
+  padding-bottom: 122rpx;
+}
+.message-logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.message-logo image {
+  width: 152rpx;
+  height: 152rpx;
+}
+.message-phone {
+  width: 548rpx;
+  margin: 0 auto;
+  padding: 80rpx 0 20rpx 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.message-phone-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.message-phone-left-size {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.message-phone-left .icon-xiajiantou {
+  padding-left: 8rpx;
+  padding-right: 26rpx;
+}
+.message-phone .message-content {
+  font-size: 42rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.message-phone image {
+  padding-left: 25rpx;
+  width: 42rpx;
+  height: 42rpx;
+}
+.message-phone-qixiao {
+  width: 34rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  height: 34rpx;
+}
+.message-line {
+  width: 548rpx;
+  height: 1px;
+  background: #eeeeee;
+  border-radius: 1px;
+  margin: 0 auto;
+}
+.message-yzm {
+  width: 548rpx;
+  padding: 65rpx 15rpx 20rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+.message-yzm input {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333;
+}
+.message-yzm-hq text {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.message-message {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-top: 120rpx;
+}
+.message-message .message-btn {
+  width: 570rpx;
+  height: 90rpx;
+  background: #eeeeee;
+  border-radius: 45px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 36rpx;
+  color: #999999;
+}
+.message-message .message-btn text {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+}
+.message-message .cahngeColor {
+  background: #dc2a1f !important;
+  color: #ffffff !important;
+}
+.message-info {
+  width: 495rpx;
+  height: 25rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 113rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-left: 90rpx;
+}
+.message-info-right {
+  text-align: right;
+  color: #1879e5;
+}
+

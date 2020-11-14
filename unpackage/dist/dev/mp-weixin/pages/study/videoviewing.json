@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "课程详情",
+  "usingComponents": {
+    "shoyu-video": "/components/shoyu-video/shoyu-video",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "u-parse": "/components/gaoyia-parse/parse",
+    "u-collapse": "/node-modules/uview-ui/components/u-collapse/u-collapse",
+    "u-collapse-item": "/node-modules/uview-ui/components/u-collapse-item/u-collapse-item",
+    "problem-list": "/components/problemList/problemList",
+    "footerbtn": "/components/footerbtn/footerbtn",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "order-footer": "/components/orderfooter"
+  }
+}

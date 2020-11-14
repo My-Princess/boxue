@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;wEAAA,qBACA,sBACA,sJ,mDACAA,EAAWC,a","file":"pages/translate/pages/translate/selectlanguage.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/translate/pages/translate/selectlanguage.vue'\ncreatePage(Page)"],"sourceRoot":""}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "学习",
+  "usingComponents": {
+    "v-tabs": "/components/v-tabs/v-tabs",
+    "u-line-progress": "/node-modules/uview-ui/components/u-line-progress/u-line-progress",
+    "video-list": "/components/videoList/videoList",
+    "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar",
+    "category": "/components/qiyue-category/qiyue-category"
+  }
+}

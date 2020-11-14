@@ -1,0 +1,1 @@
+<view class="league"><head vue-id="6a636a64-1" title="参团成功" bind:__l="__l"></head><groupbox vue-id="6a636a64-2" bind:__l="__l"></groupbox><view class="league-line"></view><view class="league-concent"><league-box vue-id="6a636a64-3" bind:__l="__l"></league-box></view><footerbtn vue-id="6a636a64-4" footername="邀请好友，拼团成功返还23元" fontSize="28rpx" bind:__l="__l"></footerbtn></view>

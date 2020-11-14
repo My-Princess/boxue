@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-switch": "/node-modules/uview-ui/components/u-switch/u-switch"
+  }
+}

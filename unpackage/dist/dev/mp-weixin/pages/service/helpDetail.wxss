@@ -1,0 +1,27 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.detail {
+  background-color: #fff;
+  color: #333;
+  font-size: 28rpx;
+  padding: 40rpx;
+  padding-top: 0;
+}
+.t {
+  line-height: 94rpx;
+  font-size: 32rpx;
+  font-weight: 700;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-bottom: 20rpx;
+}
+

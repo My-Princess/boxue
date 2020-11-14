@@ -1,0 +1,156 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+ .integral-top-r {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.postcomment-footer .u-select__header__title {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.postcomment-footer .u-select__header__btn {
+  font-size: 30rpx;
+}
+.postcomment-footer .uni-picker-view-wrapper {
+  margin-top: -140rpx;
+}
+.postcomment-c {
+  padding: 0 40rpx;
+}
+.postcomment-c-model {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.postcomment-c-model-info {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #db1f13;
+}
+.postcomment-c-txt {
+  margin-top: 45rpx;
+  width: 100%;
+  height: 280rpx;
+}
+.postcomment-c-txt-txt {
+  width: 100%;
+  height: 100%;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.postcomment-c-txt textarea::-webkit-textarea-placeholder {
+  color: #999999;
+}
+.postcomment-c-txt textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999999;
+}
+.postcomment-c-txt textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999999;
+}
+.postcomment-c-txt textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999999;
+}
+.postcomment-c-imgupdata .u-add-tips {
+  display: none;
+}
+.postcomment-c-imgupdata .u-delete-icon {
+  background: #c1b0a7 !important;
+}
+.postcomment-c-imgupdata .u-delete-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.postcomment-c-imgupdata .u-list-item {
+  margin-left: 0;
+}
+.postcomment-c-imgupdata-tip {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.postcomment-c-updata-box {
+  width: 132rpx;
+  height: 132rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: #f4f5f6;
+}
+.postcomment-c-updata-box .icon-jia {
+  font-size: 30rpx;
+}
+.postcomment-c-updata-tip {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.postcomment-c-videoupdata .uploader-input-box {
+  width: 410rpx;
+  height: 260rpx;
+}
+.postcomment-c-videoupdata .uplode-file {
+  width: 410rpx;
+  height: 260rpx;
+}
+.postcomment-c-videoupdata .uploade-img {
+  width: 100%;
+  height: 100%;
+}
+.postcomment-c-videoupdata-tip {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.postcomment-show-box {
+  padding: 20rpx 0rpx 0 0rpx;
+}
+.postcomment-show-box-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #ccc;
+}
+.postcomment-show-box-item:last-child {
+  border-bottom: none;
+}
+

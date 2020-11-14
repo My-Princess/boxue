@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "community-user": "/components/communityUser/communityUser",
+    "community-user-item": "/components/communityUser-Item/communityUser-Item"
+  }
+}

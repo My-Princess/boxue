@@ -1,0 +1,107 @@
+.clearfix.data-v-4d52125e:after,
+.clearfix.data-v-4d52125e:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-4d52125e:after {
+  clear: both;
+}
+.activeColor.data-v-4d52125e {
+  color: #db1f13 !important;
+}
+.maxcount.data-v-4d52125e {
+  font-size: 60rpx !important;
+  font-family: PingFang SC;
+  font-weight: bold;
+  font-style: italic;
+  color: #DB7A13 !important;
+}
+.Background.data-v-4d52125e {
+  background: '#FFFFFF';
+  color: '#333';
+}
+.errorBackground.data-v-4d52125e {
+  background: #dc2014 !important;
+  color: #ffffff;
+}
+.correctBackground.data-v-4d52125e {
+  background: #00b281 !important;
+  color: #ffffff;
+}
+.topic-concent.data-v-4d52125e {
+  padding-left: 40rpx;
+}
+.topic-concent-title.data-v-4d52125e {
+  display: block;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.topic-concent-subject.data-v-4d52125e {
+  margin-right: 52rpx;
+  padding-top: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.topic-concent-subject text.data-v-4d52125e {
+  display: block;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.topic-concent-concent.data-v-4d52125e {
+  margin-bottom: 100rpx;
+}
+.topic-concent-concent-item.data-v-4d52125e {
+  margin-top: 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.topic-concent-concent-item-number.data-v-4d52125e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 42rpx;
+  height: 42rpx;
+  border-radius: 21px;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  box-shadow: 0 2px 4px 0 #eeeeee;
+}
+.topic-concent-concent-item-txt.data-v-4d52125e {
+  margin-left: 12rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.topic-concent-correct.data-v-4d52125e {
+  font-size: 60rpx;
+  font-family: PingFang SC;
+  font-style: italic;
+  color: #17b78b;
+}
+.topic-concent-error.data-v-4d52125e {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #343434;
+}
+.topic-concent-analysis.data-v-4d52125e {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  color: #666;
+  padding-bottom: 30rpx;
+}
+

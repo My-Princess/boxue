@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "grouplist": "/components/Grouplist/Grouplist"
+  }
+}

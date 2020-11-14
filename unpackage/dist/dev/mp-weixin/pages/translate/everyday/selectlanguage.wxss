@@ -1,0 +1,55 @@
+.clearfix.data-v-62c50218:after,
+.clearfix.data-v-62c50218:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-62c50218:after {
+  clear: both;
+}
+.activeColor.data-v-62c50218 {
+  color: #db1f13 !important;
+}
+.blank.data-v-62c50218 {
+  text-align: center;
+  padding-top: 80rpx;
+  font-size: 30rpx;
+}
+.SelectCountry-concent.data-v-62c50218 {
+  padding: 20rpx 40rpx 0;
+}
+.SelectCountry-concent .search-top.data-v-62c50218 {
+  padding-top: 0;
+}
+.SelectCountry-concent .search-top.data-v-62c50218 .search-top-left {
+  width: 100%;
+}
+.SelectCountry-concent-c-item.data-v-62c50218 {
+  padding-top: 22rpx;
+  padding-bottom: 22rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1rpx solid #eeeeeeff;
+}
+.SelectCountry-concent-c-item-l.data-v-62c50218 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.SelectCountry-concent-c-item-r.data-v-62c50218 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.SelectCountry-concent-c-item.data-v-62c50218:nth-child(1) {
+  padding-top: 50rpx;
+}
+.SelectCountry-concent-c-item.data-v-62c50218:last-child {
+  border-bottom: none;
+}
+

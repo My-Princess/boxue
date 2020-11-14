@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "order-box": "/components/Order-box/Order-box"
+  }
+}

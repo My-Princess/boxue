@@ -1,0 +1,216 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.blank {
+  font-size: 26rpx;
+  text-align: center;
+  padding-top: 130rpx;
+}
+.challenge {
+  position: relative;
+}
+.challenge image {
+  width: 100%;
+  height: 362rpx;
+}
+.challenge-box {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -50rpx;
+  width: 670rpx;
+  height: 438rpx;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 12px 0 #eeeeee;
+}
+.challenge-box image {
+  display: block;
+  position: relative;
+  top: -50rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.challenge-box-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  margin-top: -40rpx;
+}
+.challenge-box-c {
+  padding-top: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.challenge-box-c-l {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+.challenge-box-c-l-t {
+  width: 375rpx;
+  font-size: 72rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.challenge-box-c-l-b {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.challenge-box-c-r {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+.challenge-box-c-r-t {
+  font-size: 72rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #db1f13;
+}
+.challenge-box-c-r-b {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.challenge-box-btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 90rpx;
+  background: -webkit-linear-gradient(6deg, #ff736a 0%, #e85248 100%);
+  background: linear-gradient(84deg, #ff736a 0%, #e85248 100%);
+  border-radius: 10px;
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: white;
+}
+.challenge-centent {
+  padding: 0 40rpx;
+}
+.challenge-centent-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.challenge-centent-title text {
+  margin-left: 20rpx;
+  font-size: 24rpx;
+  color: #d9d9d9;
+}
+.challenge-centent-item {
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #eeeeee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.challenge-centent-item-number {
+  width: 40rpx;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #db1f13;
+}
+.challenge-centent-item-c {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.challenge-centent-item-c-img {
+  width: 56rpx;
+  height: 56rpx;
+}
+.challenge-centent-item-c-img image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.challenge-centent-item-c-txt {
+  margin-left: 20rpx;
+  font-family: PingFang SC;
+}
+.challenge-centent-item-c-txt-t {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.challenge-centent-item-c-txt-b {
+  width: 295rpx;
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #999999;
+}
+.challenge-centent-item-r {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #db1f13;
+}
+.challenge-centent-item:first-child {
+  padding-top: 40rpx;
+}
+.challenge-centent-item:nth-child(n + 4) .challenge-centent-item-number {
+  color: #333333 !important;
+  font-size: 28rpx;
+}
+.challenge-centent-item:last-child {
+  border-bottom: none;
+}
+

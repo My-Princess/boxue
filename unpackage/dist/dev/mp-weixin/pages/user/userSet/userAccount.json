@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "账号设置",
+  "usingComponents": {
+    "head": "/components/Head/Head"
+  }
+}

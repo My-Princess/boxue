@@ -1,0 +1,175 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.historydefault-body {
+  padding: 0 40rpx;
+}
+.historydefault-comment {
+  padding-top: 55rpx;
+}
+.historydefault-comment-rate {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.historydefault-comment-name {
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  padding-right: 20rpx;
+}
+.historydefault-comment-login {
+  margin: 40rpx auto 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 600rpx;
+  height: 98rpx;
+  background: #EEEEEE;
+  border-radius: 49px;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.historydefault-comment-textarea {
+  margin-top: 40rpx;
+  width: 100%;
+  height: 340rpx;
+  padding: 30rpx 20rpx 20rpx;
+  box-shadow: 0 0 8px 0 #eeeeee;
+}
+.historydefault-comment-textarea textarea {
+  width: 100%;
+  height: 100%;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333;
+}
+.historydefault-comment-textarea textarea::-webkit-input-placeholder {
+  color: #999;
+}
+.historydefault-comment-textarea textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+}
+.historydefault-comment-textarea textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+.historydefault-comment-textarea textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999;
+}
+.historydefault-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.historydefault-title-l {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.historydefault-title-r {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.historydefault-title-r .icon-qiehuan- {
+  font-size: 34rpx;
+  padding: 0 8rpx;
+}
+.historydefault-c {
+  margin-top: 30rpx;
+}
+.historydefault-c-box {
+  width: 100%;
+  box-shadow: 0 0 8px 0 #eeeeee;
+  border-radius: 10px;
+}
+.historydefault-c-box-txt {
+  width: 100%;
+  min-height: 340rpx;
+  height: 100%;
+  padding: 30rpx 15rpx 30rpx 20rpx;
+}
+.historydefault-c-box-txt textarea {
+  width: 100%;
+  min-height: 340rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.historydefault-c-box1 {
+  box-shadow: 4px 0 6px 0 #eeeeee;
+}
+.historydefault-c-box1-title {
+  padding-top: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.historydefault-c-box1-title-l {
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.historydefault-c-box1-title-r {
+  margin-right: 20rpx;
+  width: 34rpx;
+  height: 34rpx;
+}
+.historydefault-c-box1-title-r image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.historydefault-c-box1-txt {
+  width: 100%;
+  min-height: 480rpx;
+  height: 100%;
+  padding: 20rpx 55rpx 20rpx 18rpx;
+}
+.historydefault-c-box1-txt textarea {
+  width: 100%;
+  min-height: 480rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+

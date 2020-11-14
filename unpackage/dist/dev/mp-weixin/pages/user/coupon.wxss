@@ -1,0 +1,123 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.coupon-tip {
+  text-align: center;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  margin-top: 60rpx;
+}
+.coupon-body-c {
+  padding: 0 40rpx;
+}
+.coupon-body-c-item:nth-child(1) {
+  margin-top: 40rpx;
+}
+.coupon-body-c-item {
+  margin-top: 30rpx;
+  width: 100%;
+  height: 225rpx;
+  background: url(https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/coupon.png) no-repeat;
+  background-size: 100% 225rpx;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.coupon-body-c1 {
+  padding: 0 40rpx;
+}
+.coupon-body-c1-item:nth-child(1) {
+  margin-top: 40rpx;
+}
+.coupon-body-c1-item {
+  margin-top: 30rpx;
+  width: 100%;
+  height: 225rpx;
+  background: url(https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/ysycoupon.png) no-repeat;
+  background-size: 100% 225rpx;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.coupon-body-c2 {
+  padding: 0 40rpx;
+}
+.coupon-body-c2-item:nth-child(1) {
+  margin-top: 40rpx;
+}
+.coupon-body-c2-item {
+  margin-top: 30rpx;
+  width: 100%;
+  height: 225rpx;
+  background: url(https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/ygqcoupon.png) no-repeat;
+  background-size: 100% 225rpx;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.coupon-body .coupon-body-c-item-l {
+  padding-top: 50rpx;
+  padding-left: 40rpx;
+  font-family: PingFang SC;
+  color: #ffffff;
+}
+.coupon-body .coupon-body-c-item-l-name {
+  font-size: 45rpx;
+  font-weight: bold;
+}
+.coupon-body .coupon-body-c-item-l-time {
+  padding-top: 15rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.coupon-body .coupon-body-c-item-r {
+  padding-top: 30rpx;
+  padding-right: 46rpx;
+  font-family: PingFang SC;
+  color: #ffffff;
+  overflow: hidden;
+}
+.coupon-body .coupon-body-c-item-r-fh {
+  position: absolute;
+  right: 228rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.coupon-body .coupon-body-c-item-r-money {
+  position: absolute;
+  top: 50rpx;
+  left: 430rpx;
+  font-size: 107rpx;
+  font-weight: bold;
+}
+.coupon-body-wu {
+  text-align: center;
+  margin-top: 60rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+

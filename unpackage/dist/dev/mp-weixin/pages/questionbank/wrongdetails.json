@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-circle-progress": "/node-modules/uview-ui/components/u-circle-progress/u-circle-progress"
+  }
+}

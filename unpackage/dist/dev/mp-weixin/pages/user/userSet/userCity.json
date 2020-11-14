@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

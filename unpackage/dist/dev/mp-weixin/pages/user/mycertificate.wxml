@@ -1,0 +1,1 @@
+<view><head vue-id="000c01b4-1" title="我的证书" data-event-opts="{{[['^navigateBack',[['navigateBack']]]]}}" bind:navigateBack="__e" bind:__l="__l"></head></view>

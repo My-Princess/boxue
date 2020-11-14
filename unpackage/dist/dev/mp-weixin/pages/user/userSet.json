@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设置",
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select"
+  }
+}

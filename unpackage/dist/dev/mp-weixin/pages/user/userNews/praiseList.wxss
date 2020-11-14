@@ -1,0 +1,67 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.praiseList-c {
+  padding: 0 40rpx;
+}
+.praiseList-c-item {
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #EEEEEE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.praiseList-c-item image {
+  display: block;
+  width: 80rpx;
+  height: 80rpx;
+}
+.praiseList-c-item-c {
+  margin-left: 20rpx;
+  margin-right: 50rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.praiseList-c-item-c-t {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.praiseList-c-item-c-b {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.praiseList-c-item-btn {
+  width: 130rpx;
+  height: 42rpx;
+  background: #FFFFFF;
+  border: 1rpx solid #999999;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #333333;
+  font-size: 24rpx;
+}
+

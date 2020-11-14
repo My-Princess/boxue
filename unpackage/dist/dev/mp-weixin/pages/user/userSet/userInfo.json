@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人资料",
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-upload": "/node-modules/uview-ui/components/u-upload/u-upload",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker"
+  }
+}

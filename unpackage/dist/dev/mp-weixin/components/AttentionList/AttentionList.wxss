@@ -1,0 +1,71 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.isClose {
+  background: -webkit-linear-gradient(top, #ff6a61 0%, #ff3425 100%) !important;
+  background: linear-gradient(180deg, #ff6a61 0%, #ff3425 100%) !important;
+  color: #ffffff !important;
+}
+.AttentionList-item {
+  padding: 38rpx 0;
+  border-bottom: 1rpx solid #eeeeee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.AttentionList-item image {
+  display: block;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.AttentionList-item-c {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding: 0 20rpx;
+}
+.AttentionList-item-c-t {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.AttentionList-item-c-b {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.AttentionList-item-r {
+  width: 130rpx;
+  height: 42rpx;
+  background: #ffffff;
+  border: 1rpx solid #999999;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+

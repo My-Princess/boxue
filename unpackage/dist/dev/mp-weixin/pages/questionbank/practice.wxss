@@ -1,0 +1,76 @@
+.clearfix.data-v-400052df:after,
+.clearfix.data-v-400052df:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-400052df:after {
+  clear: both;
+}
+.activeColor.data-v-400052df {
+  color: #db1f13 !important;
+}
+.integral-top.data-v-400052df .integral-top-r {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.topic-concent.data-v-400052df {
+  width: 100%;
+  height: 84vh;
+  overflow: hidden;
+}
+.topic-concent .swiper-item.data-v-400052df {
+  width: 100%;
+  height: 100%;
+}
+.topic-footer.data-v-400052df {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 98rpx;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 40rpx;
+}
+.topic-footer-l.data-v-400052df {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.topic-footer-l-icon.data-v-400052df {
+  width: 42rpx;
+  height: 42rpx;
+}
+.topic-footer-l-icon image.data-v-400052df {
+  width: 100%;
+  height: 100%;
+}
+.topic-footer-l-txt.data-v-400052df {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.topic-footer-r text.data-v-400052df {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.topic-footer-r text.data-v-400052df:first-child {
+  color: #db1f13;
+}
+

@@ -1,0 +1,42 @@
+.dhcompleted.data-v-258d205d {
+  padding-top: 185rpx;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.dhcompleted-concent.data-v-258d205d {
+  padding-top: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.dhcompleted-concent image.data-v-258d205d {
+  width: 194rpx;
+  height: 194rpx;
+}
+.dhcompleted-concent-text.data-v-258d205d {
+  padding-top: 48rpx;
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.dhcompleted-footer.data-v-258d205d {
+  position: absolute;
+  left: 50%;
+  bottom: 106rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+

@@ -1,0 +1,51 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.userPrivacy-c {
+  padding: 0 40rpx;
+}
+.userPrivacy-c-item:nth-child(1) {
+  padding-top: 0;
+}
+.userPrivacy-c-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-bottom: 1rpx solid #eeeeee;
+  padding: 25rpx 0;
+}
+.userPrivacy-c-item-name {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.userPrivacy-c-item-r {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.userPrivacy-c-item-r text {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.userPrivacy-c-item-r .icon-youjiantou1 {
+  font-size: 34rpx;
+}
+

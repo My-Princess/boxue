@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "u-line-progress": "/node-modules/uview-ui/components/u-line-progress/u-line-progress"
+  }
+}

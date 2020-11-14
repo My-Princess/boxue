@@ -1,0 +1,90 @@
+.collapse-son.data-v-1faa4a59:first-child {
+  padding-top: 38rpx;
+}
+.collapse-son.data-v-1faa4a59 {
+  padding: 24rpx 0;
+  border-bottom: 1rpx solid #eeeeee;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+}
+.collapse-son text.data-v-1faa4a59 {
+  font-family: PingFang SC;
+  font-weight: 500;
+}
+.collapse-son-size.data-v-1faa4a59 {
+  font-size: 30rpx;
+  color: #333333;
+}
+.collapse-son-r.data-v-1faa4a59 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  right: 53rpx;
+}
+.collapse-son-r-fraction.data-v-1faa4a59 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333;
+}
+.collapse-son-r-icon.data-v-1faa4a59 {
+  display: block;
+  width: 42rpx;
+  height: 42rpx;
+  margin-left: 20rpx;
+  background: #e4e4e4;
+}
+.collapse-son.data-v-1faa4a59::before {
+  content: '';
+  width: 30rpx;
+  height: 30rpx;
+  background: #ffffff;
+  border: 2px solid #eeeeee;
+  border-radius: 50%;
+  position: absolute;
+  left: -40rpx;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  z-index: 1;
+  font-size: 24rpx;
+}
+.chapter-tab.data-v-1faa4a59 {
+  padding-left: 20rpx;
+}
+.chapter-concent.data-v-1faa4a59 {
+  margin-top: 48rpx;
+  padding-left: 60rpx;
+}
+.chapter-concent .u-node.data-v-1faa4a59 {
+  border-radius: 100rpx;
+}
+.chapter-concent .u-node.data-v-1faa4a59 .uicon-pushpin-fill {
+  height: 42rpx;
+  width: 42rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-radius: 100rpx;
+}
+

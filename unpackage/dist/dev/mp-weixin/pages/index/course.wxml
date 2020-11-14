@@ -1,0 +1,1 @@
+<view class="course"><view class="course-c">111</view><u-tabbar bind:input="__e" vue-id="50b5de35-1" list="{{tabBarlist}}" mid-button="{{true}}" value="{{TabBarcurrent}}" data-event-opts="{{[['^input',[['__set_model',['','TabBarcurrent','$event',[]]]]]]}}" bind:__l="__l"></u-tabbar></view>

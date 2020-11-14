@@ -1,0 +1,171 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.u-progress-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.u-progress-dot {
+  font-size: 60rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #00bc89;
+}
+.u-progress-info {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+ .u-circle-progress {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.wrongdetails {
+  width: 100%;
+}
+.wrongdetails-jd {
+  position: relative;
+  margin-top: 65rpx;
+  margin-bottom: 48rpx;
+}
+.wrongdetails-centent {
+  padding: 0 40rpx;
+}
+.wrongdetails-centent-box {
+  padding: 48rpx 40rpx;
+  box-shadow: 0 0 8px 0 #eeeeee;
+}
+.wrongdetails-centent-box-name {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.wrongdetails-centent-box-c {
+  padding-top: 8rpx;
+  padding-bottom: 14rpx;
+}
+.wrongdetails-centent-box-c text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+}
+.wrongdetails-centent-box-c text:nth-child(1) {
+  padding-left: 0;
+}
+.wrongdetails-centent-box-time {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.wrongdetails-centent-box1 {
+  margin-bottom: 120rpx;
+  margin-top: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 40rpx 40rpx 10rpx;
+  box-shadow: 0 0 10px 0 #eeeeee;
+}
+.wrongdetails-centent-box1-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-bottom: 30rpx;
+  width: 33%;
+}
+.wrongdetails-centent-box1-item text {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.wrongdetails-centent-box1-item image {
+  margin-left: 5rpx;
+  display: block;
+  width: 34rpx;
+  height: 34rpx;
+}
+.wrongdetails-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 98rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.wrongdetails-footer-czqt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(117deg, #00bc89 0%, #53d0ae 100%);
+  background: linear-gradient(-27deg, #00bc89 0%, #53d0ae 100%);
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: white;
+}
+.wrongdetails-footer-czct {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(117deg, #ff4f42 0%, #ff7a70 100%);
+  background: linear-gradient(-27deg, #ff4f42 0%, #ff7a70 100%);
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: white;
+}
+

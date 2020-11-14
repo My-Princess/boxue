@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['preserve',['$event']]]]]}}" class="footerbtn data-v-28d02e70" style="{{('background:'+background+';font-size:'+fontSize+';color:'+color)}}" bindtap="__e">{{''+footername+''}}</view>

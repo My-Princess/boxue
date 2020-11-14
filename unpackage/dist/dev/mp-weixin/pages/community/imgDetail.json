@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "img-box": "/components/ImgBox/ImgBox"
+  }
+}

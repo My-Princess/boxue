@@ -1,0 +1,1 @@
+<view class="imgDetail"><head vue-id="5a1b1041-1" bind:__l="__l" vue-slots="{{['right']}}"><view slot="right"><view>保存图片</view></view></head><view class="imgDetail-c"><img-box vue-id="5a1b1041-2" bind:__l="__l"></img-box></view></view>

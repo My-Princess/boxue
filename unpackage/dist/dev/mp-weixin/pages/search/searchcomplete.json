@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索内容",
+  "usingComponents": {
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "aboutlist": "/components/Aboutlist/Aboutlist",
+    "video-list": "/components/videoList/videoList",
+    "search": "/components/searchs"
+  }
+}

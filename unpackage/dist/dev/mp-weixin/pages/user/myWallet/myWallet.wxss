@@ -1,0 +1,141 @@
+.clearfix.data-v-e1d29878:after,
+.clearfix.data-v-e1d29878:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-e1d29878:after {
+  clear: both;
+}
+.activeColor.data-v-e1d29878 {
+  color: #db1f13 !important;
+}
+.tipAddress.data-v-e1d29878 {
+  padding: 40rpx;
+}
+.tipAddress-txt.data-v-e1d29878 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.tipAddress-btn.data-v-e1d29878 {
+  margin-top: 78rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.tipAddress-btn-qx.data-v-e1d29878 {
+  margin-right: 40rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.tipAddress-btn-qr.data-v-e1d29878 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #db1f13;
+}
+.myWallet.data-v-e1d29878 {
+  width: 100%;
+  background: #f8f8f8;
+}
+.data-v-e1d29878 .integral-top {
+  color: #ffffff !important;
+}
+.data-v-e1d29878 .integral-top-title {
+  color: #ffffff !important;
+}
+.myWallet-box.data-v-e1d29878 {
+  position: relative;
+  width: 100%;
+  height: 450rpx;
+  border-radius: 0 0 5% 5%;
+  background: -webkit-linear-gradient(121deg, #db1f13 0%, #ff765f 100%) !important;
+  background: linear-gradient(-31deg, #db1f13 0%, #ff765f 100%) !important;
+}
+.myWallet-box-c.data-v-e1d29878 {
+  padding-top: 78rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.myWallet-box-c-name.data-v-e1d29878 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #eeeeee;
+}
+.myWallet-box-c-money.data-v-e1d29878 {
+  font-size: 90rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ffffff;
+}
+.myWallet-box-withdraw.data-v-e1d29878 {
+  position: absolute;
+  left: 50%;
+  bottom: -40rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 360rpx;
+  height: 80rpx;
+  background: #ffffff;
+  border-radius: 40px;
+  box-shadow: 0 0 3px 0 #ff765f;
+}
+.myWallet-box-withdraw text.data-v-e1d29878 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #db1f13;
+}
+.myWallet-c.data-v-e1d29878 {
+  padding-top: 74rpx;
+}
+.myWallet-c-name.data-v-e1d29878 {
+  padding: 0 40rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.myWallet-c-name text.data-v-e1d29878 {
+  margin-right: 14rpx;
+}
+.myWallet-c-name .iconfont.data-v-e1d29878 {
+  font-size: 30rpx;
+}
+.myWallet-c-tab.data-v-e1d29878 {
+  padding: 0;
+}
+.myWallet-c-body-wu.data-v-e1d29878 {
+  text-align: center;
+  margin-top: 100rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "客服",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "head": "/components/Head/Head"
+  }
+}

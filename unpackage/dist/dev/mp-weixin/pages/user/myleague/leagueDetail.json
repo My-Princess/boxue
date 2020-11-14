@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "head": "/components/Head/Head",
+    "groupbox": "/components/Groupbox/Groupbox",
+    "league-box": "/components/leagueBox/leagueBox",
+    "footerbtn": "/components/footerbtn/footerbtn"
+  }
+}

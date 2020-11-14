@@ -1,0 +1,207 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.activeExchane {
+  background: #dc2a20 !important;
+  color: #ffffff !important;
+}
+.exchange-btn {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 600rpx;
+  height: 98rpx;
+  background: #eeeeee;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.exchange-body {
+  padding: 0 40rpx;
+}
+.exchange-box1 {
+  position: relative;
+  top: -60rpx;
+  height: 302rpx;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 40rpx 20rpx;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
+}
+.exchange-box1-select {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #db1f13;
+}
+.exchange-box1-select-l {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.exchange-box1-select-l image {
+  display: block;
+  width: 58rpx;
+  height: 58rpx;
+  border-radius: 50%;
+}
+.exchange-box1-select-l-name {
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #db1f13;
+}
+.exchange-box1-c {
+  border-bottom: 1rpx solid #999999;
+}
+.exchange-box1-c input::-webkit-input-placeholder {
+  color: #999999;
+}
+.exchange-box1-c input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999999;
+}
+.exchange-box1-c input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999999;
+}
+.exchange-box1-c input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999999;
+}
+.exchange-box1-c input {
+  display: block;
+  font-size: 79rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.exchange-box1-tip {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.exchange-qh {
+  width: 106rpx;
+  height: 106rpx;
+  position: relative;
+  top: -30rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 99;
+}
+.exchange-qh image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.exchange-box {
+  height: 302rpx;
+  background: -webkit-linear-gradient(318deg, #ff3e32 0%, #ec0000 100%);
+  background: linear-gradient(132deg, #ff3e32 0%, #ec0000 100%);
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 40rpx 20rpx;
+}
+.exchange-box-select {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #ffffff;
+}
+.exchange-box-select-l {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.exchange-box-select-l image {
+  display: block;
+  width: 58rpx;
+  height: 58rpx;
+  border-radius: 50%;
+}
+.exchange-box-select-l-name {
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ffffff;
+}
+.exchange-box-c {
+  border-bottom: 1rpx solid #999999;
+}
+.exchange-box-c .uni-input-placeholder {
+  color: #ff9999 !important;
+}
+.exchange-box-c input::-webkit-input-placeholder {
+  color: #ff9999 !important;
+}
+.exchange-box-c input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ff9999 !important;
+}
+.exchange-box-c input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ff9999 !important;
+}
+.exchange-box-c input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ff9999 !important;
+}
+.exchange-box-c input {
+  display: block;
+  font-size: 79rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ffffff;
+}
+.exchange-box-tip {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ffe5e5;
+}
+

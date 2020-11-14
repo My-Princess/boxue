@@ -1,0 +1,58 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.myleague-number {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.myleague-number-l {
+  text-align: right;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #cbcbcb;
+  text-decoration: line-through;
+}
+.myleague-number-r {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #dc2a1f;
+}
+.myleague-box {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #FFFFFF;
+  z-index: 99;
+}
+.myleague-body {
+  padding-top: 200rpx;
+}
+.myleague-body-list {
+  padding: 0 40rpx;
+}
+.myleague-body-list-di {
+  text-align: center;
+  margin-top: 60rpx;
+  margin-bottom: 40rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+

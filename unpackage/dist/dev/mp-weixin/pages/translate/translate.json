@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我要翻译",
+  "usingComponents": {
+    "head": "/components/Head/Head"
+  }
+}

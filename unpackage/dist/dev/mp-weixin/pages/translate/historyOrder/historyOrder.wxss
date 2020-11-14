@@ -1,0 +1,124 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.historyOrder-tip {
+  text-align: center;
+  margin-top: 100rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.historyOrder-footer {
+  padding-top: 60rpx;
+  text-align: center;
+}
+.historyOrder-list {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  padding: 0 40rpx;
+}
+.historyOrder-item {
+  margin-top: 40rpx;
+  width: 100%;
+  padding: 40rpx 25rpx 30rpx 25rpx;
+  box-shadow: 0 0 6px 0 #eeeeee;
+  border-radius: 10px;
+}
+.historyOrder-item-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-left: 6rpx;
+}
+.historyOrder-item-title-l {
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+}
+.historyOrder-item-title-l-name {
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.historyOrder-item-title-l-teacher {
+  margin-left: 40rpx;
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: Medium;
+  color: #333333;
+}
+.historyOrder-item-title-r {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #db1f13;
+}
+.historyOrder-item-c {
+  padding-top: 30rpx;
+  padding-left: 6rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.historyOrder-item-line {
+  margin-top: 40rpx;
+  width: 100%;
+  height: 1rpx;
+  background: #eeeeee;
+}
+.historyOrder-item-number {
+  padding: 30rpx 0 6rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.historyOrder-item-pay {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.historyOrder-item-pay-time {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+.historyOrder-item-pay-pay {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+

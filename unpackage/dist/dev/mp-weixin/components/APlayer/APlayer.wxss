@@ -1,0 +1,121 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+@font-face {
+  font-family: 'icon';
+  src: url("//at.alicdn.com/t/font_1104838_fxzimc34xw.eot");
+  src: url("//at.alicdn.com/t/font_1104838_fxzimc34xw.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_1104838_fxzimc34xw.woff2") format("woff2"), url("//at.alicdn.com/t/font_1104838_fxzimc34xw.woff") format("woff"), url("//at.alicdn.com/t/font_1104838_fxzimc34xw.ttf") format("truetype"), url("//at.alicdn.com/t/font_1104838_fxzimc34xw.svg#iconfont") format("svg");
+}
+.audioLoading {
+  -webkit-animation: loading 2s;
+          animation: loading 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.APlayer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200rpx;
+  background: #ffffff;
+  box-shadow: 0 4px 9px 0 #333;
+}
+.APlayer-top {
+  margin-top: 46rpx;
+  margin-bottom: 18rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.APlayer-top-l {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.APlayer-top-l text {
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.APlayer-top-c {
+  width: 463rpx;
+  overflow: hidden;
+  margin: 0 18rpx;
+}
+.APlayer-top-c .audio-slider {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.APlayer-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.APlayer-bottom-lbxh {
+  width: 44rpx;
+  height: 42rpx;
+  margin-right: 77rpx;
+}
+.APlayer-bottom-lbxh image {
+  width: 100%;
+  height: 100%;
+}
+.APlayer-bottom-syj {
+  width: 44rpx;
+  height: 44rpx;
+}
+.APlayer-bottom-syj image {
+  width: 100%;
+  height: 100%;
+}
+.APlayer-bottom-zt {
+  margin: 0 65rpx;
+  width: 82rpx;
+  height: 82rpx;
+}
+.APlayer-bottom-zt image {
+  width: 100%;
+  height: 100%;
+}
+.APlayer-bottom-xyj {
+  width: 44rpx;
+  height: 44rpx;
+}
+.APlayer-bottom-xyj image {
+  width: 100%;
+  height: 100%;
+}
+.APlayer-bottom-lb {
+  width: 44rpx;
+  height: 32rpx;
+  margin-left: 77rpx;
+}
+.APlayer-bottom-lb image {
+  width: 100%;
+  height: 100%;
+}
+

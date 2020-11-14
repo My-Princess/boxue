@@ -1,0 +1,1 @@
+<view class="submitRate"><head vue-id="1984f323-1" title="提交成功" bind:__l="__l"></head><view class="submitRate-c"><image src="https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/dhwc.png" mode></image><view class="submitRate-c-name">提交成功</view><view class="submitRate-c-txt">感谢您对本次翻译结果的点评</view></view></view>

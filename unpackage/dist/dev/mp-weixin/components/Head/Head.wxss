@@ -1,0 +1,53 @@
+.head-mp.data-v-53464684 {
+  padding-top: 20rpx;
+}
+.integral-top.data-v-53464684 {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 0 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-top: 30rpx;
+  padding-bottom: 20rpx;
+  z-index: 999;
+}
+.integral-top .icon-zuojiantou.data-v-53464684 {
+  font-size: 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.integral-top-title.data-v-53464684 {
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333;
+}
+.integral-top-r.data-v-53464684 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+

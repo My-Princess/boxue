@@ -1,0 +1,29 @@
+.clearfix.data-v-9f10d578:after,
+.clearfix.data-v-9f10d578:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-9f10d578:after {
+  clear: both;
+}
+.activeColor.data-v-9f10d578 {
+  color: #db1f13 !important;
+}
+.v-collapse.data-v-9f10d578 {
+  padding-left: 40rpx;
+  position: relative;
+}
+.v-collapse.data-v-9f10d578::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12rpx;
+  width: 1px;
+  bottom: 0;
+  border-left: 1px solid #EEEEEE;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: scaleX(0.5);
+          transform: scaleX(0.5);
+}
+

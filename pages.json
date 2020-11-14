@@ -1,0 +1,542 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	// 此为本身已有的内容
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/study",
+			"style": {
+				"navigationBarTitleText": "学习"
+			}
+		}, {
+			"path": "pages/index/community",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/index/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+			"path": "pages/index/course",
+			"style": {
+				"navigationBarTitleText": "课程"
+			}
+		},
+
+		{
+			"path": "pages/order/orderdetails"
+		}
+
+
+	    ,{
+            "path" : "pages/index/CourseDefails",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/video",
+            "style" : {}
+        }
+    ],
+	"subPackages": [{
+		"root": "pages/community/",
+		"pages": [{
+			"path": "communityDetail",
+			"style": {
+
+			}
+		}, {
+			"path": "postcomment",
+			"style": {}
+		}, {
+			"path": "imgDetail",
+			"style": {}
+		}, {
+			"path": "articleDetail",
+			"style": {}
+		}]
+	}, {
+		"root": "pages/group/",
+		"pages": [{
+			"path": "group",
+			"style": {}
+		}, {
+			"path": "groupsuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		}, {
+			"path": "league",
+			"style": {}
+		}]
+	}, {
+		"root": "pages/integral/",
+		"pages": [{
+			"path": "integral",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+			}
+		}, {
+			"path": "pointsdetails",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}, {
+
+			"path": "confirmOrder",
+			"style": {
+				"navigationBarTitleText": "订单确认"
+			}
+		}, {
+			"path": "filladdress",
+			"style": {
+				"navigationBarTitleText": "填写收货"
+			}
+		}, {
+			"path": "addressinfo",
+			"style": {
+				"navigationBarTitleText": "选择收货地址"
+			}
+		}, {
+
+			"path": "dhcompleted",
+			"style": {
+				"navigationBarTitleText": "确认兑换"
+			}
+		}, {
+			"path": "dhrecord",
+
+			"style": {
+				"navigationBarTitleText": "兑换记录",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "integralrule",
+			"style": {
+				"navigationBarTitleText": "积分规则"
+			}
+		}, {
+			"path": "virtualdetails",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}, {
+			"path": "editAddress",
+			"style": {
+				"navigationBarTitleText": "填写收货信息"
+			}
+		}]
+	}, {
+		"root": "pages/login/",
+		"pages": [{
+				"path": "login",
+				"style": {
+					"navigationBarTitleText": "登录"
+				}
+			},
+			{
+				"path": "message",
+				"style": {
+					"navigationBarTitleText": "忘记密码"
+				}
+			},
+			{
+				"path": "register",
+				"style": {
+					"navigationBarTitleText": "忘记密码"
+				}
+			}, {
+				"path": "wxlogin",
+				"style": {"navigationBarTitleText": "绑定手机号"}
+			}, {
+				"path": "passwordlogin",
+				"style": {}
+			}, {
+				"path": "areacode",
+				"style": {
+					"navigationBarTitleText": "选择区号"
+				}
+			}, {
+				"path": "agreement",
+				"style": {
+					"navigationBarTitleText": "服务协议与隐私政策"
+				}
+			}, {
+				"path": "changePwd",
+				"style": {
+					"navigationBarTitleText": "修改密码"
+				}
+			}
+		]
+	}, {
+		"root": "pages/questionbank/",
+		"pages": [{
+			"path": "chapter"
+		}, {
+			"path": "topic",
+			"style": {}
+		}, {
+			"path": "download",
+			"style": {}
+		}, {
+			"path": "practice",
+			"style": {}
+		}, {
+			"path": "userid",
+			"style": {}
+		}, {
+			"path": "mistakes",
+			"style": {}
+		}, {
+			"path": "wrongdetails",
+			"style": {}
+		}, {
+			"path": "achievement",
+			"style": {}
+		}, {
+			"path": "collect",
+			"style": {}
+		}, {
+			"path": "challenge",
+			"style": {}
+		}, {
+			"path": "collectTopic",
+			"style": {}
+		}]
+	}, {
+		"root": "pages/search/",
+		"pages": [{
+				"path": "search",
+				"style": {
+					"navigationBarTitleText": "搜索"
+				}
+			},
+			{
+				"path": "searchcomplete",
+				"style": {
+					"navigationBarTitleText": "搜索内容"
+				}
+			}
+		]
+	}, {
+		"root": "pages/service/",
+		"pages": [{
+			"path": "index",
+
+			"style": {
+				"navigationBarTitleText": "客服",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "aiservice"
+		}, {
+			"path": "manual",
+			"style": {
+				"navigationBarTitleText": "操作手册"
+			}
+		}, {
+			"path": "commonproble",
+			"style": {
+				"navigationBarTitleText": "常见问题"
+			}
+		}, {
+			"path": "feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}, {
+			"path": "instructor"
+		}, {
+			"path": "helpDetail",
+			"style": {}
+		}]
+	}, {
+		"root": "pages/study/",
+		"pages": [{
+			"path": "videoviewing",
+			"style": {
+				"navigationBarTitleText": "课程详情"
+			}
+		}, {
+			"path": "frequency"
+		}, {
+			"path": "audios",
+			"style": {}
+		}, {
+			"path": "task",
+			"style": {}
+		}, {
+			"path": "webView",
+			"style": {}
+		}    ,{
+                    "path" : "myEvaluation",
+                    "style" : {
+						"navigationBarTitleText": "我要评价"
+					}
+                }
+                ,{
+                    "path" : "Evaluationsuccess",
+                    "style" : {
+						"navigationBarTitleText": "提交成功"
+					}
+                },{
+                    "path" : "Myquestion",
+                    "style" : {
+						"navigationBarTitleText": "我要提问"
+					}
+                }
+            ]
+	}, {
+		"root": "pages/translate/",
+		"pages": [{
+			"path": "everyday/everyday",
+			"style": {
+				"navigationBarTitleText": "日常快译"
+			}
+		}, {
+			"path": "translate",
+			"style": {
+				"navigationBarTitleText": "我要翻译"
+			}
+		}, {
+			"path": "artificial/artificial",
+			"style": {
+				"navigationBarTitleText": "人工翻译"
+			}
+		}, {
+			"path": "everyday/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		}, {
+			"path": "artificial/successful",
+			"style": {
+				"navigationBarTitleText": "预约成功"
+			}
+		}, {
+			"path": "historyOrder/historyOrder",
+			"style": {
+				"navigationBarTitleText": "翻译历史"
+			}
+		}, {
+			"path": "historyOrder/historydefault",
+			"style": {}
+		}, {
+			"path": "historyOrder/submitRate",
+			"style": {}
+		}    ,{
+                    "path" : "immediate/immediate",
+                    "style" : {
+							"navigationBarTitleText": "即时短翻译"
+					}
+                }
+                ,{
+                    "path" : "everyday/everydayDefault",
+                    "style" : {
+						"navigationBarTitleText": "日常快译"
+					}
+                }
+                ,{
+                    "path" : "everyday/selectlanguage",
+                    "style" : {
+						"navigationBarTitleText": "请选择语言"
+					}
+                }
+            ]
+	}, {
+		"root": "pages/user/",
+		"pages": [{
+			"path": "userSet",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "userSet/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		}, {
+			"path": "userSet/userNickname",
+			"style": {
+				"navigationBarTitleText": "昵称"
+			}
+		}, {
+			"path": "userSet/userBrief",
+			"style": {
+				"navigationBarTitleText": "简介"
+			}
+		}, {
+			"path": "userSet/userAccount",
+
+			"style": {
+				"navigationBarTitleText": "账号设置"
+			}
+
+		}, {
+			"path": "userSet/userPrivacy",
+			"style": {}
+		}, {
+			"path": "userSet/userhelp",
+			"style": {
+				"navigationBarTitleText": "帮助反馈"
+			}
+		}, {
+			"path": "userSet/userAboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		}, {
+			"path": "news",
+			"style": {}
+		}, {
+			"path": "userNews/newsDetails",
+			"style": {}
+		}, {
+			"path": "userNews/replyDetails",
+			"style": {}
+		}, {
+			"path": "userNews/praiseList",
+			"style": {}
+		}, {
+			"path": "mycourses",
+			"style": {}
+		}, {
+			"path": "myTask",
+			"style": {}
+		}, {
+			"path": "myTeacher",
+			"style": {}
+		}, {
+			"path": "myTeacher/teacherDetail",
+			"style": {}
+		}, {
+			"path": "myTeacher/teacherComment",
+			"style": {}
+		}, {
+			"path": "coupon",
+			"style": {}
+		}, {
+			"path": "myWallet/myWallet",
+			"style": {}
+		}, {
+			"path": "myWallet/withdraw",
+			"style": {}
+		}, {
+			"path": "myWallet/withdrawResult",
+			"style": {}
+		}, {
+			"path": "myIntegral",
+			"style": {
+				"navigationBarTitleText": "我的积分",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "myWallet/walletRule",
+			"style": {}
+		}, {
+			"path": "myOrder/myOrder",
+			"style": {}
+		}, {
+			"path": "myOrder/orderDetails",
+			"style": {}
+		}, {
+			"path": "myleague/myleague",
+			"style": {}
+		}, {
+			"path": "myleague/leagueDetail",
+			"style": {}
+		}, {
+			"path": "exchange/exchange",
+			"style": {}
+		}, {
+			"path": "myFocus",
+			"style": {}
+		}, {
+			"path": "myHome/myHome",
+			"style": {}
+		}, {
+			"path": "exchange/SelectCountry",
+			"style": {}
+		}, {
+			"path": "myOrder/everyday",
+			"style": {}
+		}, {
+			"path": "myOrder/artificial",
+			"style": {}
+		}, {
+			"path": "userSet/userCity",
+			"style": {}
+		}    ,{
+                    "path" : "mycertificate",
+                    "style" : {	"navigationBarTitleText": "我的证书"}
+                }
+            ]
+	}],
+	"tabBar": {
+		
+		"custom":true,
+		"color": "#8a8a8a",
+		"selectedColor": "#00aa00",
+		"borderStyle": "black",
+		"backgroundColor": "rgba(255,255,255,1)",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/sy.png",
+				"selectedIconPath": "static/img/syxz.png"
+			},
+			{
+				"pagePath": "pages/index/study",
+				"text": "学习",
+				"iconPath": "static/img/xx.png",
+				"selectedIconPath": "static/img/xxxz.png"
+			},
+			{
+				"pagePath": "pages/index/course",
+				
+				"iconPath": "static/img/kcicon.png",
+				"selectedIconPath": "static/img/kcicon.png"
+			},
+			{
+				"pagePath": "pages/index/community",
+				"text": "社区",
+				"iconPath": "static/img/sq.png",
+				"selectedIconPath": "static/img/sqxz.png"
+			},
+			{
+				"pagePath": "pages/index/user",
+				"text": "我的",
+				"iconPath": "static/img/user.png",
+				"selectedIconPath": "static/img/userxz.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "博学教育",
+		// #ifdef H5
+		"navigationStyle": "custom",
+		// #endif
+		"navigationBarBackgroundColor": "#333",
+		"backgroundColor": "#fff"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "pages/index/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

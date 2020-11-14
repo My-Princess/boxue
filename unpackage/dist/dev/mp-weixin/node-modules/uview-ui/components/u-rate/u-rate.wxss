@@ -1,0 +1,25 @@
+.clearfix.data-v-01de4127:after,
+.clearfix.data-v-01de4127:before {
+  content: '';
+  display: table;
+}
+.clearfix.data-v-01de4127:after {
+  clear: both;
+}
+.activeColor.data-v-01de4127 {
+  color: #db1f13 !important;
+}
+.u-rate.data-v-01de4127 {
+  display: -webkit-inline-flex;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.u-icon.data-v-01de4127 {
+  box-sizing: border-box;
+}
+

@@ -1,0 +1,91 @@
+.integrallist.data-v-7af1f3f6 {
+  padding-top: 40rpx;
+}
+.integrallist-title.data-v-7af1f3f6 {
+  padding-bottom: 23rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.integrallist-info.data-v-7af1f3f6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.integrallist-info-item.data-v-7af1f3f6:nth-child(2n) {
+  margin-right: 0rpx;
+}
+.integrallist-info-item.data-v-7af1f3f6:nth-child(n + 3) {
+  padding-top: 38rpx;
+}
+.integrallist-info-item.data-v-7af1f3f6:nth-last-child(-n + 2) {
+  padding-bottom: 42rpx;
+}
+.integrallist-info-item.data-v-7af1f3f6 {
+  width: 325rpx;
+  margin-right: 20rpx;
+}
+.integrallist-info-item image.data-v-7af1f3f6 {
+  display: block;
+  width: 100%;
+  height: 447rpx;
+  background: #eeeeee;
+  border-radius: 10px;
+}
+.integrallist-info-item-name.data-v-7af1f3f6 {
+  padding-top: 20rpx;
+  padding-bottom: 15rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.integrallist-info-item-text.data-v-7af1f3f6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.integrallist-info-item-text text.data-v-7af1f3f6 {
+  font-family: PingFang SC;
+  font-weight: 500;
+}
+.integrallist-info-item-text-kc.data-v-7af1f3f6 {
+  font-size: 22rpx;
+  color: #666666;
+}
+.integrallist-info-item-text-jf.data-v-7af1f3f6 {
+  font-size: 28rpx;
+  color: #dc2a1f;
+}
+.integrallist-btn.data-v-7af1f3f6 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 80rpx;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  margin-bottom: 16rpx;
+}
+

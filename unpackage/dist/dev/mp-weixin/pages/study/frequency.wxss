@@ -1,0 +1,96 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.u-collapse-content .collapse-item  {
+  padding: 30rpx 0;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.frequency-top .icon-zuojiantou {
+  color: #ffffff;
+}
+.u-collapse-content .collapse-item .collapse-item-title {
+  width: 92%;
+}
+.frequency-top {
+  width: 100%;
+  background: #999999;
+}
+.frequency-top-title {
+  padding: 0 40rpx 20rpx 40rpx;
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: white;
+}
+.frequency-top-txt {
+  padding: 0 40rpx 30rpx 40rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #eeeeee;
+}
+.frequency-concent-tab {
+  padding: 0 40rpx;
+}
+.frequency-concent-box1 {
+  margin-top: 20rpx;
+}
+.frequency-concent-box1 .collapse-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding-right: 52rpx;
+}
+.frequency-concent-box1 .collapse-item-img {
+  width: 42rpx;
+  height: 38rpx;
+}
+.frequency-concent-box1 .collapse-item-img image {
+  width: 100%;
+  height: 100%;
+}
+.frequency-concent-box2 {
+  margin-top: 20rpx;
+}
+.frequency-concent-box2 .collapse-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+}
+.frequency-concent-box2 .collapse-item-img {
+  margin-left: 30rpx;
+  width: 42rpx;
+  height: 38rpx;
+}
+.frequency-concent-box2 .collapse-item-img image {
+  width: 100%;
+  height: 100%;
+}
+.frequency-concent-box2 .collapse-item-txt {
+  position: absolute;
+  right: 52rpx;
+}
+.frequency-concent-box3 {
+  margin-top: 20rpx;
+}
+.frequency-concent-line {
+  height: 1rpx;
+  background: #eeeeee;
+}
+

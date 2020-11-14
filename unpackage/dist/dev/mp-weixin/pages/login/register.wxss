@@ -1,0 +1,130 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.register {
+  padding-top: 233rpx;
+  padding-bottom: 122rpx;
+}
+.register-logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.register-logo image {
+  width: 152rpx;
+  height: 152rpx;
+}
+.register-phone {
+  width: 588rpx;
+  margin: 0 auto;
+  padding: 80rpx 0 20rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.register-phone input {
+  padding-left: 13rpx;
+  width: 100%;
+}
+.register-phone image {
+  margin-right: 15rpx;
+  display: block;
+  width: 44rpx;
+  height: 40rpx;
+}
+.register-line {
+  width: 588rpx;
+  height: 1px;
+  background: #eeeeee;
+  border-radius: 1px;
+  margin: 0 auto;
+}
+.register-yzm {
+  width: 588rpx;
+  padding: 65rpx 0rpx 20rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 auto;
+}
+.register-yzm image {
+  margin-right: 15rpx;
+  display: block;
+  width: 44rpx;
+  height: 40rpx;
+}
+.register-yzm input {
+  padding-left: 13rpx;
+  width: 100%;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #cacaca;
+}
+.register-message {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-top: 120rpx;
+}
+.register-message .message-btn {
+  width: 570rpx;
+  height: 90rpx;
+  background: #eeeeee;
+  border-radius: 45px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 36rpx;
+  color: #999999;
+}
+.register-message .message-btn text {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+}
+.register-message .cahngeColor {
+  background: #dc2a1f;
+  color: white;
+}
+.register-info {
+  width: 495rpx;
+  height: 25rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 113rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-left: 90rpx;
+}
+.register-info-right {
+  text-align: right;
+  color: #1879e5;
+}
+

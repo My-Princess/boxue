@@ -1,0 +1,16 @@
+@import 'uview-ui/theme.scss';
+$fontSize:30rpx;
+.clearfix:after,
+.clearfix:before {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+// .clearfix {
+// 	*zoom: 1;
+// }
+.activeColor{
+	color: #db1f13 !important;
+}

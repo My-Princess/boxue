@@ -1,0 +1,81 @@
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.activeColor {
+  color: #db1f13 !important;
+}
+.ActiveColor {
+  background: #DC2A1F !important;
+  color: #fff !important;
+}
+.evaluation-c {
+  padding: 0 40rpx;
+}
+.evaluation-rdte {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.evaluation-rdte-name {
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  padding-right: 20rpx;
+}
+.evaluation-textarea {
+  margin-top: 40rpx;
+  width: 100%;
+  height: 340rpx;
+  padding: 30rpx 20rpx 20rpx;
+  box-shadow: 0 0 8px 0 #eeeeee;
+}
+.evaluation-textarea textarea {
+  width: 100%;
+  height: 100%;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333;
+}
+.evaluation-textarea textarea::-webkit-input-placeholder {
+  color: #999;
+}
+.evaluation-textarea textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+}
+.evaluation-textarea textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+.evaluation-textarea textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999;
+}
+.evaluation-login {
+  margin: 40rpx auto 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 600rpx;
+  height: 98rpx;
+  background: #EEEEEE;
+  border-radius: 49px;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+

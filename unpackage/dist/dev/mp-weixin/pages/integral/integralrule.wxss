@@ -1,0 +1,35 @@
+.pointsdetails-concent.data-v-5193ebfc {
+  padding: 0 40rpx;
+}
+.pointsdetails-concent-item-title.data-v-5193ebfc {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  padding-bottom: 26rpx;
+}
+.pointsdetails-concent-item-txt.data-v-5193ebfc {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 40rpx;
+}
+.pointsdetails-concent-item1.data-v-5193ebfc {
+  padding-top: 60rpx;
+}
+.pointsdetails-concent-item1-title.data-v-5193ebfc {
+  padding-bottom: 26rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.pointsdetails-concent-item1-txt.data-v-5193ebfc {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 40rpx;
+}
+
