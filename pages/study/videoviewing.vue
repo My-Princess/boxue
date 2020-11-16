@@ -17,7 +17,7 @@
 			</view>
 			<view class="videoviewing-top-b">
 				<!-- #ifdef H5 -->
-				  <view class="videoviewing-top-b-r" @click="shareShow = true"><image src="https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/fhengq.png" mode=""></image></view>
+				<view class="videoviewing-top-b-r" @click="shareShow = true"><image src="https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/fhengq.png" mode=""></image></view>
 				<!-- #endif -->
 				<!-- #ifdef MP-WEIXIN -->
 				<view class="videoviewing-top-b-r">
@@ -52,23 +52,21 @@
 					</view>
 					<!-- 目录 -->
 					<view class="videoviewing-concent-box2" v-if="activeTab == 1">
-						<u-collapse :head-style="headStyle" :body-style="bodyStyle" event-type="close" @change="change" >
-							<k-scroll-view ref="k-scroll-view" :refreshType="refreshType" :refreshTip="refreshTip" :loadTip="loadTip" :loadingTip="loadingTip"
-							 :emptyTip="emptyTip" :touchHeight="touchHeight" :height="heights" :bottom="bottom" :autoPullUp="autoPullUp"
-							 :stopPullDown="stopPullDown" @onPullDown="handlePullDown" @onPullUp="handleLoadMore">
-							<u-collapse-item :index="index" @change="itemChange" :title="item.head" v-for="(item, index) in itemList" :key="item.id" v-if="item.type">
-								<view class="collapse-item" v-for="(v, i) in item.body" :key="i" @click="plays(v, i)">
-									<view class="collapse-item-title" :class="i == activeIndex ? 'activeColor' : ''">{{ v.fileName || v.file_name }}</view>
-								</view>
-							</u-collapse-item>
-								</k-scroll-view>
+						<u-collapse :head-style="headStyle" :body-style="bodyStyle" event-type="close" @change="change">
+						
+								<u-collapse-item :index="index" @change="itemChange" :title="item.head" v-for="(item, index) in itemList" :key="item.id" v-if="item.type">
+									<view class="collapse-item" v-for="(v, i) in item.body" :key="i" @click="plays(v, i)">
+										<view class="collapse-item-title" :class="i == activeIndex ? 'activeColor' : ''">{{ v.fileName || v.file_name }}</view>
+									</view>
+								</u-collapse-item>
+						
 						</u-collapse>
 					</view>
 
 					<!-- 学员评价 -->
 					<view class="videoviewing-concent-box3" v-if="activeTab == 2">
-						<view class="student-item">
-							<problemList>
+						
+							<problemList :courseList="evaluateList">
 								<template v-slot:head>
 									<view class="problemList-head">
 										<view class="problemList-head-name">{{ study.Mycommenttxt }}</view>
@@ -76,13 +74,13 @@
 									</view>
 								</template>
 							</problemList>
-						</view>
+					
 					</view>
 
 					<!-- 问题讨论 -->
 					<view class="videoviewing-concent-box3" v-if="activeTab == 3">
-						<view class="student-item">
-							<problemList>
+				
+							<problemList :courseList="ClassProblemData">
 								<template v-slot:head>
 									<view class="problemList-head">
 										<view class="problemList-head-name">{{ study.Myquestiontxt }}</view>
@@ -90,7 +88,7 @@
 									</view>
 								</template>
 							</problemList>
-						</view>
+					
 					</view>
 					<!-- </mescroll-uni> -->
 				</swiper-item>
@@ -143,8 +141,8 @@ import { mapMutations } from 'vuex';
 import orderFooter from '@/components/orderfooter.vue';
 // import videoSwiper from './videoSwiper.vue'
 import uParse from '@/components/gaoyia-parse/parse.vue'; //引入富文本组件
-import { getIntroduce, getList, collectionintroduce, collectionList } from '@/api/study.js';
-	import kScrollView from '@/components/k-scroll-view/k-scroll-view.vue';
+import { getIntroduce, getList, collectionintroduce, collectionList,indexContent,getClassProblem } from '@/api/study.js';
+
 // import MescrollMixin from '@/components/mescroll-uni/mescroll-mixins.js';
 // import MescrollMoreItemMixin from '@/components/mescroll-uni/mixins/mescroll-more-item.js';
 export default {
@@ -168,6 +166,10 @@ export default {
 			// 当前tab位置
 			activeTab: 0,
 			tabs1: [],
+			// 评价列表
+			evaluateList:[],
+			// 讨论
+			ClassProblemData:[],
 			// 清晰度
 			type: 2,
 			activeIndex: '', // 选中颜色的第几个
@@ -203,17 +205,7 @@ export default {
 					type: 1
 				}
 			],
-			
-			refreshType: 'native',
-			refreshTip: '正在下拉',
-			loadTip: '获取更多数据',
-			loadingTip: '正在加载中...',
-			emptyTip: '--我是有底线的--',
-			touchHeight: 50,
-			heights: 0,
-			bottom: 50,
-			autoPullUp: true,
-			stopPullDown: true, // 如果为 false 则不使用下拉刷新，只进行上拉加载
+
 		
 		};
 	},
@@ -243,15 +235,19 @@ export default {
 		} else {
 			this.getIntroduceDta();
 		}
+		
+		this.getindexContent()
+		this.getClassProblemData()
 
 		// 计数
 		let mill = new Date().getTime();
 		this.time = mill / 1000;
-
+		// #ifdef H5
 		var CountEvent = window.JAnalyticsInterface.Event.CountEvent;
 		var cEvent = new CountEvent('COURSE_DETAIL');
 		cEvent.addKeyValue('key1', 'value1').addKeyValue('key2', 'value2');
 		window.JAnalyticsInterface.onEvent(cEvent);
+		// #endif
 	},
 	watch: {
 		activeTab(val) {
@@ -303,19 +299,17 @@ export default {
 		getcatalog(ck, type) {
 			if (ck == 1) {
 				let data1 = { token: uni.getStorageSync('token'), courseType: ck, type: type, class_id: this.detailsdata.classId, page: this.directoryPage };
-				getList(data1)
-					.then(res => {
-						console.log('语音视频', res);
-						res.data.list.length < 10 ? (this.directoryPage = this.directoryPage) : (this.directoryPage = ++this.directoryPage);
-						//设置列表数据
-						if (this.directoryPage == 1) this.itemList[0].body = []; //如果是第一页需手动制空列表
-						
-						this.itemList[0].body = this.itemList[0].body.concat(res.data.list); //追加新数据
-						// this.itemList[0].body = res.data.list;
+				getList(data1).then(res => {
+					console.log('语音视频', res);
+					res.data.list.length < 10 ? (this.directoryPage = this.directoryPage) : (this.directoryPage = ++this.directoryPage);
+					//设置列表数据
+					if (this.directoryPage == 1) this.itemList[0].body = []; //如果是第一页需手动制空列表
 
-						console.log('kankan', this.itemList);
-					})
-					
+					this.itemList[0].body = this.itemList[0].body.concat(res.data.list); //追加新数据
+					// this.itemList[0].body = res.data.list;
+
+					console.log('kankan', this.itemList);
+				});
 			}
 			if (ck == 2) {
 				let data1 = { token: uni.getStorageSync('token'), courseType: ck, type: type, class_id: this.detailsdata.classId, page: '1' };
@@ -347,7 +341,21 @@ export default {
 		swiperChange(e) {
 			this.activeTab = e.detail.current;
 		},
-		
+		// 课程列表评价
+		async getindexContent(){
+			let data = {id:this.id}
+			 let res = await indexContent(data)
+			 console.log(res)
+			  this.evaluateList = res.data.list
+		},
+		// 
+		async getClassProblemData(){
+			let data = {token:uni.getStorageSync('token'),id:this.id}
+		     let res = await getClassProblem(data)
+			 console.log(res)
+			 this.ClassProblemData = res.data.list
+		},
+
 		myEvaluation() {
 			uni.navigateTo({
 				url: `/pages/study/myEvaluation?id=${this.id}`
@@ -358,13 +366,7 @@ export default {
 				url: `/pages/study/Myquestion?id=${this.id}`
 			});
 		},
-		handleLoadMore(){
-			console.log('触发呀')
-			this.getcatalog(1, 1);
-		},
-		handlePullDown(){
-			console.log('掉毛')
-		},
+		
 		activeTabs(e) {
 			this.activeTab = e;
 			// console.log(e)
@@ -397,7 +399,7 @@ export default {
 		},
 		footerBtn() {
 			uni.navigateTo({
-				url: '../group/group'
+				url: `../group/group?id=${this.id}`
 			});
 		},
 
@@ -439,16 +441,13 @@ export default {
 </script>
 
 <style lang="less">
-	.shareImg{
-		position: absolute;
-		width: 42rpx;
-		height: 42rpx;
-		background: transparent;
-	}
-.student-item {
-	padding-bottom: 20rpx;
-	border-bottom: 1rpx solid #eee;
+.shareImg {
+	position: absolute;
+	width: 42rpx;
+	height: 42rpx;
+	background: transparent;
 }
+
 .problemList-head {
 	display: flex;
 	justify-content: space-between;

@@ -69,7 +69,7 @@
 		"root": "pages/group/",
 		"pages": [{
 			"path": "group",
-			"style": {}
+			"style": {"navigationBarTitleText": "立即报名"}
 		}, {
 			"path": "groupsuccess",
 			"style": {

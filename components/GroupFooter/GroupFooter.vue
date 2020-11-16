@@ -3,7 +3,7 @@
 		<view class="group-footer">
 			<view class="group-footer-l">
 				<view class="group-footer-l-jg">
-					￥5580<text>.00</text>
+					￥{{Price.money}}<text></text>
 				</view>
 				<view class="group-footer-l-xh" @click="mxBtn">
 					<text>明细</text>
@@ -13,9 +13,9 @@
 			</view>
 			
 			<view class="group-footer-r">
-				<view class="group-footer-r-lbtn" @click="ddzfBtn">
-					<text>单独购买</text>
-					<text>￥5840</text>
+				<view class="group-footer-r-lbtn" @click="curriculumBtn">
+					<text>立即购买</text>
+					<text>￥{{Price.money}}</text>
 				</view>
 			<!-- 	<view class="group-footer-r-rbtn">
 					<text>新开拼团</text>
@@ -32,6 +32,12 @@
 			icon:{
 				type:Boolean,
 				default:true
+			},
+			Price:{
+				type:Object,
+				default:()=>{
+					return {}
+				}
 			}
 		},
 		data() {
@@ -40,8 +46,8 @@
 			};
 		},
 		methods:{
-			ddzfBtn(){
-				this.$emit('ddzfBtn')
+			curriculumBtn(){
+				this.$emit('curriculumBtn')
 			},
 			mxBtn(){
 				this.$emit('mxBtn')

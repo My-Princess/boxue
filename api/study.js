@@ -210,11 +210,21 @@ export const indexContent = (data) => {
 	})
 }
 
-
-// 支付
-export const prepayApp = (data) => {
+// 课程列表提问
+export const getClassProblem = (data) => {
 	return request.JA({
-		url: '/class/prepayApp/',
+		url: '/class/getClassProblem',
+		method: "POST",
+		data
+	})
+}
+
+
+
+// 小程序支付
+export const Wxprepay = (data) => {
+	return request.JA({
+		url: `/class/prepay/${uni.getStorageSync('token')}.html`,
 		method: "POST",
 		data
 	})

@@ -9,6 +9,10 @@
 .activeColor {
   color: #db1f13 !important;
 }
+.student-item {
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
 .problemList {
   padding: 0 40rpx;
 }

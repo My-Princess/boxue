@@ -1,29 +1,39 @@
 <template>
 	<view class="problemList">
+		<view class="student-item" v-for="item in courseList" :key="item.id">
 		<view class="problemList-title"><slot name="head"></slot></view>
 		<view class="problemList-c">
 			<view class="problemList-c-title">
-				<image :src="defaultimg"></image>
+				<image :src="item.head_img || defaultimg"></image>
 				<view class="problemList-c-title-c">
-					<view class="problemList-c-title-c-name">某不知名网友</view>
-					<view class="problemList-c-title-c-time">2020-07-08</view>
+					<view class="problemList-c-title-c-name">{{item.nickname}}</view>
+					<view class="problemList-c-title-c-time">{{item.create_time}}</view>
 				</view>
 				<view class="problemList-c-title-btn"><slot name="right"></slot></view>
 			</view>
 			<view class="problemList-c-c">
-				帖子内容帖子内容帖子内容帖子内容帖子内 容帖子内容帖子内容帖子内容帖子。 拷贝 7
+				{{item.content}}
 			</view>
 			<view class="problemList-c-comment">
 			  <text class="problemList-c-comment-l">杜小英老师：</text>
 			  <text class="problemList-c-comment-r">这个问题的答案是123。</text>
 			</view>
 		</view>
+			</view>
 	</view>
 </template>
 
 <script>
 import { mapState } from 'vuex';
 export default {
+	props:{
+		courseList:{
+			type:Array,
+			default:()=>{
+				return []
+			}
+		}
+	},
 	data() {
 		return {};
 	},
@@ -34,6 +44,10 @@ export default {
 </script>
 
 <style lang="scss">
+	.student-item {
+		padding-bottom: 20rpx;
+		border-bottom: 1rpx solid #eee;
+	}
 .problemList {
 	padding: 0 40rpx;
 	&-c {

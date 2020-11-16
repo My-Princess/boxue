@@ -1,12 +1,14 @@
 <template>
 	<view>
+		<!-- 支付头 -->
 		<view class="group-box">
 			<view class="group-box-item">
-				<view class="group-box-item-left"><image src="https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/zs.png" mode=""></image></view>
+				<view class="group-box-item-left"><image :src="CourseDetails.image" mode=""></image></view>
 				<view class="group-box-item-right">
-					<view class="group-box-item-right-title hidden">缅甸语基础之音标知多少东西</view>
-					<view class="group-box-item-right-text">课程介绍什么的介绍课程介绍课程 介绍课程介绍课程介绍课程介绍什么的</view>
-					<view class="group-box-item-right-bottom"><text class="group-box-item-right-bottom-r">￥ 79</text></view>
+					<view class="group-box-item-right-title hidden">{{CourseDetails.title}}</view>
+					<!-- 内容 -->
+					<view class="group-box-item-right-text"></view>
+					<view class="group-box-item-right-bottom"><text class="group-box-item-right-bottom-r">￥ {{CourseDetails.money}}</text></view>
 				</view>
 			</view>
 		</view>
@@ -15,6 +17,14 @@
 
 <script>
 	export default {
+		props:{
+			CourseDetails:{
+				type:Object,
+				default:()=>{
+					return {}
+				}
+			}
+		},
 		data() {
 			return {
 				
@@ -56,6 +66,7 @@
 
 				&-text {
 					width: 322rpx;
+					max-height: 40rpx;
 					font-size: 22rpx;
 					font-family: PingFang SC;
 					font-weight: 500;

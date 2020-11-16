@@ -39,6 +39,7 @@
 }
 .group-box-item-right-text {
   width: 322rpx;
+  max-height: 40rpx;
   font-size: 22rpx;
   font-family: PingFang SC;
   font-weight: 500;

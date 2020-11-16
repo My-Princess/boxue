@@ -33,6 +33,7 @@ export const mineIndex = () => {
 	})
 }
 
+
 // 修改个人信息资料
 export const updateUserInfo = (data) => {
 	return request.JA({
@@ -189,6 +190,15 @@ export const translationAdd = (data) => {
 export const translationList = (data) => {
 	return request.JA({
 		url: '/translation/list',
+		method: "POST",
+		data
+	})
+}
+
+// 快译订单
+export const fastTranslationAdd = (data) => {
+	return request.JA({
+		url: '/fastTranslation/add',
 		method: "POST",
 		data
 	})

@@ -4,12 +4,12 @@
 
 		<view class="everyday-c">
 			<view class="everyday-title">
-				<view class="everyday-title-l">{{ isnewCut ? langdefault : langSelect }}</view>
+				<view class="everyday-title-l">{{ isnewCut ? langdefault.name : langSelect.name }}</view>
 				<view class="iconfont icon-qiehuan-"></view>
-				<view class="everyday-title-r">{{isnewCut ?  langSelect : langdefault }}</view>
+				<view class="everyday-title-r">{{isnewCut ?  langSelect.name : langdefault.name }}</view>
 				<view class="iconfont icon-xiajiantou1" @click="tiPlanguage"></view>
 			</view>
-			<view class="everyday-textarea"><textarea value="" @input="changValue" maxlength="-1" :placeholder="translate.chooseTip" /></view>
+			<view class="everyday-textarea"><textarea v-model="content" value="" @input="changValue" maxlength="-1" :placeholder="translate.chooseTip" /></view>
 			<view class="everyday-sumbit" :class="{ activeSumbit }" @click="everydayBtn">{{$t('commonality.submit')}}</view>
 		</view>
 		<!-- 语言选择弹窗 -->
@@ -87,13 +87,19 @@
 </template>
 
 <script>
-	import {getClassType} from '@/api/user.js'
+	import {getClassType,fastTranslationAdd} from '@/api/user.js'
 export default {
 	data() {
 		return {
-			langSelect: '印尼语',
-			langdefault: '汉语',
-			name:'印尼语',
+			content:'',
+			langSelect: {
+			
+			},
+			langdefault: {
+				name:'汉语',
+				id:'0'
+			},
+			name:{},
 			isCut: true,
 			isnewCut:true,
 			activeindex:99,
@@ -107,7 +113,10 @@ export default {
 		};
 	},
 	onLoad() {
+		// 翻译语言
 		this.getClassTypeData()
+		// 快译订单
+		this.getfastTranslationAdd()
 	},
 	computed:{
 		translate(){
@@ -119,14 +128,19 @@ export default {
 			let data = {token:uni.getStorageSync('token')}
 			let res = await getClassType(data)
 			this.ClassTypeData = res.data
-			this.langSelect = this.ClassTypeData[0].name
+			this.langSelect = this.ClassTypeData[0]
+		},
+		async getfastTranslationAdd(){
+			let data = {token:uni.getStorageSync('token'),content:this.content,form_cate_id:this.langdefault.id,to_cate_id:this.langSelect.id}
+			let res = await fastTranslationAdd(data)
+			console.log(res)
 		},
 		tiPlanguage() {
 			this.languageShow = true;
 		},
 		// 语言选择
 		languageListClick(e, i) {
-			this.langSelect = e.name;
+			this.langSelect = e;
 			this.cate_id = e.id;
 			this.activeindex = i;
 		},
@@ -160,7 +174,12 @@ export default {
 		// 提交
 		everydayBtn(){
 			if(this.activeSumbit){
-				this.payShow = true;
+				// #ifdef H5
+				    this.payShow = true;
+				// #endif
+				// #ifdef MP-WEIXIN
+				    this.getfastTranslationAdd()
+				// #endif
 			}
 		},
 		//立即支付
