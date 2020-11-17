@@ -10,7 +10,7 @@
   color: #db1f13 !important;
 }
 .student-item {
-  padding-bottom: 20rpx;
+  padding: 20rpx 0;
   border-bottom: 1rpx solid #eee;
 }
 .problemList {
@@ -70,12 +70,12 @@
   margin-left: 100rpx;
   width: 548rpx;
   height: 65rpx;
-  background: #EEEEEE;
+  background: #eeeeee;
   border-radius: 10px;
 }
 .problemList-c-comment-l {
   padding-left: 30rpx;
-  color: #0058DD;
+  color: #0058dd;
   margin-right: 20rpx;
 }
 .problemList-c-comment-r {

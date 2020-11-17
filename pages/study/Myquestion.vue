@@ -3,18 +3,20 @@
 		<!-- 我要提问 -->
 		<Head :title="study.Myquestion"  @navigateBack="navigateBack"></Head>
 		<view class="Myquestion-c">
-			<view class="Myquestion-textarea"><textarea value="" maxlength="200" :placeholder="study.questionNum" @input="changeIpt" /></view>
+			<view class="Myquestion-textarea"><textarea v-model="concent" maxlength="200" :placeholder="study.questionNum" @input="changeIpt" /></view>
 			<view class="Myquestion-login" :class="{ActiveColor}" @click="submit">{{comm.submit}}</view>
 		</view>
 	</view>
 </template>
 
 <script>
+	import { addClassProblem } from '@/api/study.js'
 	export default {
 		data() {
 			return {
 				ActiveColor:false,
-				id:''
+				id:'',
+				concent:''
 			};
 		},
 		onLoad(option) {
@@ -32,10 +34,24 @@
 			changeIpt(e){
 				if(e.detail.value != '') this.ActiveColor = true
 			},
-			submit(){
-				uni.navigateTo({
-					url:`/pages/study/Evaluationsuccess?id=${this.id}`
-				})
+			async submit(){
+				
+				if(this.ActiveColor){
+					let data = {token:uni.getStorageSync('token'),id:this.id,content:this.concent}
+				     let res =	await addClassProblem(data)
+					 console.log(res)
+					 if(res.code == 0){
+						 uni.navigateTo({
+						 	url:`/pages/study/Evaluationsuccess?id=${this.id}`
+						 })
+					 }else{
+						 uni.showToast({
+						 	title:'提交失败',
+							icon:'none'
+						 })
+					 }
+				}
+				
 			},
 			navigateBack(){
 				uni.navigateBack({

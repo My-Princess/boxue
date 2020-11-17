@@ -14,6 +14,9 @@
 				<view class="mycourses-body-c" v-if="classMineData.length">
 					<view class="mycourses-body-c-item" v-for="(item, index) in classMineData" :key="item.classId" @click="TrainSkip(item.classId)">
 						<Aboutlist :headImg="headImg" :MineData="item">
+							<template v-slot:img>
+								<image :src="item.image" mode="widthFix" style="width: 325rpx;height: 193rpx;"> </image>
+							</template>
 							<view class="mycourses-body-c-item-b">
 								<view class="mycourses-body-c-item-b-t">语音课：未观看</view>
 								<view class="mycourses-body-c-item-b-b">句子课：已观看至25课</view>
@@ -62,10 +65,7 @@ export default {
 			barStyle: {
 				background: '#DB1F13'
 			},
-			headImg: {
-				width: '325rpx',
-				height: '192rpx'
-			},
+			
 			list: [
 				
 			],

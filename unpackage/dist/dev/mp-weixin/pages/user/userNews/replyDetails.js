@@ -6,7 +6,7 @@
 /*!***************************************************************************!*\
   !*** C:/Users/HP/Desktop/bxh1/bxh10/pages/user/userNews/replyDetails.vue ***!
   \***************************************************************************/
-/*! no static exports found */function(e,n,t){"use strict";t.r(n);var r=t(/*! ./replyDetails.vue?vue&type=template&id=5139b2c4& */725),u=t(/*! ./replyDetails.vue?vue&type=script&lang=js& */727);for(var c in u)"default"!==c&&function(e){t.d(n,e,(function(){return u[e]}))}(c);var o,i=t(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */10),a=Object(i["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],o);a.options.__file="pages/user/userNews/replyDetails.vue",n["default"]=a.exports},725:
+/*! no static exports found */function(e,n,t){"use strict";t.r(n);var r=t(/*! ./replyDetails.vue?vue&type=template&id=5139b2c4& */725),u=t(/*! ./replyDetails.vue?vue&type=script&lang=js& */727);for(var c in u)"default"!==c&&function(e){t.d(n,e,(function(){return u[e]}))}(c);var o,i=t(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */12),a=Object(i["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],o);a.options.__file="pages/user/userNews/replyDetails.vue",n["default"]=a.exports},725:
 /*!**********************************************************************************************************!*\
   !*** C:/Users/HP/Desktop/bxh1/bxh10/pages/user/userNews/replyDetails.vue?vue&type=template&id=5139b2c4& ***!
   \**********************************************************************************************************/

@@ -31,7 +31,7 @@ const state = {
 			text: '',
 			midButton: true,
 			customIcon: false,
-				pagePath: '/pages/index/course',
+				pagePath: '/pages/user/mycourses',
 		},
 		{
 			iconPath: 'https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/sq.png',

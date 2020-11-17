@@ -23,8 +23,12 @@
 			<view class="complete-tab-box">
 				<view class="complete-tab-box-bx"  v-show="tab == 0">
 					<view class="lists" id="lists" v-if="classData.length" >
+						
 						<view class="complete-box-item" v-for="(item, index) in classData" :key="index" @click="videoSkip(item.id)">
-							<Aboutlist :MineData="item">
+							<Aboutlist :MineData="item" >
+								<template v-slot:img>
+									<image :src="item.image" mode="widthFix" style="width: 325rpx;height: 193rpx;"> </image>
+								</template>
 								<view class="complete-tab-box-bx-item-right-bottom">
 									<text class="complete-tab-box-bx-item-right-bottom-l">{{ search.section }}: {{ item.count }}节</text>
 									<text class="complete-tab-box-bx-item-right-bottom-r">￥ {{ item.money }}</text>

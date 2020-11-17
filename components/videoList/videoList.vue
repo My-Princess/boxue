@@ -8,10 +8,10 @@
 				<view class="complete-tab-box-sp-item-right-text hidden">{{item.description}}</view>
 				<view class="complete-tab-box-sp-item-right-bottom">
 					<view>
-						<text>9839人学过</text>
-						<text class="complete-tab-box-sp-item-right-bottom-time">时长 37:12</text>
+						<!-- <text>9839人学过</text> -->
+						<!-- <text class="complete-tab-box-sp-item-right-bottom-time">时长 37:12</text> -->
 					</view>
-					<text>￥79</text>
+					<text>￥{{item.money}}</text>
 				</view>
 			</view>
 		</view>

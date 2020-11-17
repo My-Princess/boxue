@@ -6,7 +6,7 @@
 /*!*************************************************************!*\
   !*** C:/Users/HP/Desktop/bxh1/bxh10/pages/group/league.vue ***!
   \*************************************************************/
-/*! no static exports found */function(n,e,t){"use strict";t.r(e);var r=t(/*! ./league.vue?vue&type=template&id=da244590& */170),u=t(/*! ./league.vue?vue&type=script&lang=js& */172);for(var o in u)"default"!==o&&function(n){t.d(e,n,(function(){return u[n]}))}(o);t(/*! ./league.vue?vue&type=style&index=0&lang=scss& */174);var c,i=t(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */10),a=Object(i["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],c);a.options.__file="pages/group/league.vue",e["default"]=a.exports},170:
+/*! no static exports found */function(n,e,t){"use strict";t.r(e);var r=t(/*! ./league.vue?vue&type=template&id=da244590& */170),u=t(/*! ./league.vue?vue&type=script&lang=js& */172);for(var o in u)"default"!==o&&function(n){t.d(e,n,(function(){return u[n]}))}(o);t(/*! ./league.vue?vue&type=style&index=0&lang=scss& */174);var c,i=t(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */12),a=Object(i["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],c);a.options.__file="pages/group/league.vue",e["default"]=a.exports},170:
 /*!********************************************************************************************!*\
   !*** C:/Users/HP/Desktop/bxh1/bxh10/pages/group/league.vue?vue&type=template&id=da244590& ***!
   \********************************************************************************************/

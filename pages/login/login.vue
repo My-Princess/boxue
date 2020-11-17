@@ -64,7 +64,7 @@
 				<image class="wxlogin-imgbtn-wx" src="https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/wx.png" mode=""></image>
 				<view class="wxlogin-imgbtn-name">{{ login.wxLOgin }}</view>
 				<!-- #ifdef MP-WEIXIN -->
-			         <button class="wxq-btn loginWx" open-type="getUserInfo" @getuserinfo="getUserInfo"></button>
+				<button class="wxq-btn loginWx" open-type="getUserInfo" @getuserinfo="getUserInfo"></button>
 				<!-- #endif -->
 			</view>
 			<!-- 验证登录 -->
@@ -89,7 +89,7 @@
 
 <script>
 import { getCode, Setcode, Login } from '@/api/index.js';
-import { getUserInfos,getOpenid } from '@/api/index.js'
+import { getUserInfos, getOpenid, getopenids } from '@/api/index.js';
 export default {
 	data() {
 		return {
@@ -109,22 +109,22 @@ export default {
 			eyeShow: true,
 			showPhone: false,
 			showAuthorization: true,
-			code: '' ,//微信临时登录凭证
-			session_key:''
+			code: '', //微信临时登录凭证
+			session_key: ''
 		};
 	},
 	onLoad() {
 		this.word = this.login.getCode;
 		uni.login({
 			success: res => {
-				console.log(res)
+				console.log(res);
 				if (res.errMsg == 'login:ok') {
 					// this.code = res.code;
-					let data = {code:res.code}
-					getOpenid(data).then(res=>{
-						console.log(res)
-						this.session_key = res.data.session_key
-					})
+					let data = { code: res.code };
+					getOpenid(data).then(res => {
+						console.log(res);
+						this.session_key = res.data.session_key;
+					});
 				} else {
 					uni.showToast({
 						title: '系统异常，请联系管理员!'
@@ -217,10 +217,52 @@ export default {
 				});
 			}
 		},
-		wxLogin(){
-			// uni.navigateTo({
-			// 	url:'/pages/login/wxlogin'
-			// })
+		wxLogin() {
+			console.log('H5微信登录');
+			// #ifdef H5
+			this.wxAuthorize();
+			// #endif
+		},
+		// 微信公众号授权
+		wxAuthorize() {
+			let link = window.location.href;
+			// let getAppid = this.getWxUrlData('appid');
+			// console.log('getAppid', getAppid);
+			// if (getAppid) {
+			// 	uni.getStorageSync('getAppid', getAppid);
+			// 	console.log('缓存appid');
+			// }
+			let params = this.getWxUrlData('code'); // 地址解析
+			console.log('fsdfsad');
+			console.log('params', params);
+			if (params) {
+				console.log('code', params);
+				let data = { code: params };
+				getopenid(data).then(res => {
+					console.log(res);
+				});
+			} else {
+				let appid = 'wxe23e57a4e7b1c293';
+				let setUrl = 'http://ceshi.xiaoyuzhong123.com/api/home/cc';
+				let uris = encodeURIComponent(setUrl);
+
+				let url =
+					'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' + appid + '&redirect_uri=' + uris + '&scope=snsapi_userinfo&response_type=code&#wechat_redirect';
+				window.location.href = url;
+			}
+		},
+
+		// 截取地址
+		getWxUrlData(variable) {
+			let query = window.location.search.substring(1);
+			let vars = query.split('&');
+			for (let i = 0; i < vars.length; i++) {
+				let pair = vars[i].split('=');
+				if (pair[0] == variable) {
+					return pair[1];
+				}
+			}
+			return false;
 		},
 
 		// 密码登录
@@ -366,16 +408,16 @@ export default {
 					console.log('用户信息，加密数据', e);
 					//eData  包括//微信头像//微信名称 还有加密的数据.
 					let eData = JSON.parse(e.detail.rawData);
-					console.log(eData)
+					console.log(eData);
 					//接下来就是访问接口.
 					let data = {
 						encryptedData: e.detail.encryptedData,
 						iv: e.detail.iv,
-						sessionKey:that.session_key
-					}
-					console.log(data)
-					getUserInfos(data).then(res=>{
-						console.log('解密',res)
+						sessionKey: that.session_key
+					};
+					console.log(data);
+					getUserInfos(data).then(res => {
+						console.log('解密', res);
 						uni.setStorage({
 							key: 'token', //key的名称是 url
 							data: res.data.token, //data中存放的是我的url地址
@@ -383,7 +425,7 @@ export default {
 								console.log('存储成功');
 							}
 						});
-						
+
 						uni.setStorage({
 							key: 'user', //key的名称是 url
 							data: res.data, //data中存放的是我的url地址
@@ -391,25 +433,22 @@ export default {
 								console.log('存储成功');
 							}
 						});
-						
-						
-						if(res.data.status == 0){
-							uni.navigateTo({
-								url:'/pages/login/wxlogin'
-							})
-							
-						}else if(res.data.status == 1){
-							uni.switchTab({
-								url:'/pages/index/index'
-							})
-						}else{
-							uni.showToast({
-								title:res.msg,
-								icon:'none'
-							})
-						}
-					})
 
+						if (res.data.status == 0) {
+							uni.navigateTo({
+								url: '/pages/login/wxlogin'
+							});
+						} else if (res.data.status == 1) {
+							uni.switchTab({
+								url: '/pages/index/index'
+							});
+						} else {
+							uni.showToast({
+								title: res.msg,
+								icon: 'none'
+							});
+						}
+					});
 				} else {
 					uni.showToast({
 						title: '授权失败，请确认授权已开启',

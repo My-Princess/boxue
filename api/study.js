@@ -219,6 +219,25 @@ export const getClassProblem = (data) => {
 	})
 }
 
+// 添加评论
+export const addClassContent = (data) => {
+	return request.JA({
+		url: '/class/addClassContent',
+		method: "POST",
+		data
+	})
+}
+
+// 课程提问
+export const addClassProblem = (data) => {
+	return request.JA({
+		url: '/class/addClassProblem',
+		method: "POST",
+		data
+	})
+}
+
+
 
 
 // 小程序支付

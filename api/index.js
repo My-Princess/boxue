@@ -1,4 +1,15 @@
 import request from '../util/request.js'
+
+
+// 获取opions
+export const getopenids = (data) => {
+	return request.JA({
+	  url: '/api/home/bb',
+	  method: "GET",
+	  data
+	})
+}
+
 /*         首页     */
 export const getIndex = () => {
   return request.JA({

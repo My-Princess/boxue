@@ -80,6 +80,7 @@
     "h5" : {
         "devServer" : {
             "https" : false,
+            // "publicPath" : "/h5/",
             // "port": 8080,
             //      "disableHostCheck": true,
             "proxy" : {
@@ -103,15 +104,15 @@
                         "^/myhik" : ""
                     }
                 },
-				"/language" : {
-				    "target" : "http://api.fanyi.baidu.com/api/trans/vip/", //请求的目标域名
-				    "changeOrigin" : true,
-				    "secure" : false,
-				    "pathRewrite" : {
-				        //使用代理； 告诉他你这个连接要用代理
-				        "^/language" : ""
-				    }
-				},
+                "/language" : {
+                    "target" : "http://api.fanyi.baidu.com/api/trans/vip/", //请求的目标域名
+                    "changeOrigin" : true,
+                    "secure" : false,
+                    "pathRewrite" : {
+                        //使用代理； 告诉他你这个连接要用代理
+                        "^/language" : ""
+                    }
+                },
                 "/aliyuncs" : {
                     "target" : "https://boxue-resource.oss-cn-shenzhen.aliyuncs.com", //请求的目标域名
                     "changeOrigin" : true,
@@ -123,14 +124,20 @@
                 }
             }
         },
-        "template" : "index.html"
+        "template" : "index.html",
+        "domain" : "http://ceshi.xiaoyuzhong123.com/h5",
+        "router" : {
+            "mode" : "hash",
+            "base" : "/h5/"
+        },
+        "title" : "博学教育"
     },
     "router" : {
         "mode" : "hash",
         "base" : "./"
     },
     "template" : "index.html",
-    "domain" : "http://qd.xiaoyuzhong123.com"
+    "domain" : "http://ceshi.xiaoyuzhong123.com/h5"
 }
 // "port": 8080,
 //      "disableHostCheck": true,

@@ -6,7 +6,7 @@
 /*!***********************************************************!*\
   !*** C:/Users/HP/Desktop/bxh1/bxh10/pages/study/task.vue ***!
   \***********************************************************/
-/*! no static exports found */function(n,t,e){"use strict";e.r(t);var r=e(/*! ./task.vue?vue&type=template&id=651be9c4& */514),u=e(/*! ./task.vue?vue&type=script&lang=js& */516);for(var o in u)"default"!==o&&function(n){e.d(t,n,(function(){return u[n]}))}(o);e(/*! ./task.vue?vue&type=style&index=0&lang=scss& */518);var c,i=e(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */10),a=Object(i["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],c);a.options.__file="pages/study/task.vue",t["default"]=a.exports},514:
+/*! no static exports found */function(n,t,e){"use strict";e.r(t);var r=e(/*! ./task.vue?vue&type=template&id=651be9c4& */514),u=e(/*! ./task.vue?vue&type=script&lang=js& */516);for(var o in u)"default"!==o&&function(n){e.d(t,n,(function(){return u[n]}))}(o);e(/*! ./task.vue?vue&type=style&index=0&lang=scss& */518);var c,i=e(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */12),a=Object(i["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],c);a.options.__file="pages/study/task.vue",t["default"]=a.exports},514:
 /*!******************************************************************************************!*\
   !*** C:/Users/HP/Desktop/bxh1/bxh10/pages/study/task.vue?vue&type=template&id=651be9c4& ***!
   \******************************************************************************************/

@@ -1,9 +1,9 @@
 <template>
 	<view class="aboutlist">
 		<view class="complete-tab-box-bx-item" >
-			<view class="complete-tab-box-bx-item-left" :style="headImg"><image :src="MineData.image" mode=""></image></view>
+			<view class="complete-tab-box-bx-item-left"><slot name="img"></slot> </view>
 			<view class="complete-tab-box-bx-item-right">
-				<view class="complete-tab-box-bx-item-right-title hidden">{{MineData.name}}</view>
+				<view class="complete-tab-box-bx-item-right-title hidden">{{MineData.name || MineData.class_name}}</view>
 				<view class="complete-tab-box-bx-item-right-text">{{MineData.description}}</view>
 				<slot></slot>
 			</view>
@@ -14,12 +14,7 @@
 <script>
 export default {
 	props:{
-		headImg:{
-			type:Object,
-			default:()=>{
-				return {width: '325rpx',height: '193rpx'}
-			}
-		},
+		
 		MineData:{
 			type:Object,
 			default:()=>{

@@ -6,7 +6,7 @@
 /*!*******************************************************************!*\
   !*** C:/Users/HP/Desktop/bxh1/bxh10/pages/user/mycertificate.vue ***!
   \*******************************************************************/
-/*! no static exports found */function(n,e,t){"use strict";t.r(e);var r=t(/*! ./mycertificate.vue?vue&type=template&id=39ce3de0& */916),u=t(/*! ./mycertificate.vue?vue&type=script&lang=js& */918);for(var c in u)"default"!==c&&function(n){t.d(e,n,(function(){return u[n]}))}(c);var a,i=t(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */10),o=Object(i["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],a);o.options.__file="pages/user/mycertificate.vue",e["default"]=o.exports},916:
+/*! no static exports found */function(n,e,t){"use strict";t.r(e);var r=t(/*! ./mycertificate.vue?vue&type=template&id=39ce3de0& */916),u=t(/*! ./mycertificate.vue?vue&type=script&lang=js& */918);for(var c in u)"default"!==c&&function(n){t.d(e,n,(function(){return u[n]}))}(c);var a,i=t(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */12),o=Object(i["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],a);o.options.__file="pages/user/mycertificate.vue",e["default"]=o.exports},916:
 /*!**************************************************************************************************!*\
   !*** C:/Users/HP/Desktop/bxh1/bxh10/pages/user/mycertificate.vue?vue&type=template&id=39ce3de0& ***!
   \**************************************************************************************************/

@@ -6,7 +6,7 @@
 /*!***************************************************************!*\
   !*** C:/Users/HP/Desktop/bxh1/bxh10/pages/service/manual.vue ***!
   \***************************************************************/
-/*! no static exports found */function(n,e,t){"use strict";t.r(e);var r=t(/*! ./manual.vue?vue&type=template&id=1a92cd19& */444),u=t(/*! ./manual.vue?vue&type=script&lang=js& */446);for(var c in u)"default"!==c&&function(n){t.d(e,n,(function(){return u[n]}))}(c);var a,o=t(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */10),i=Object(o["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],a);i.options.__file="pages/service/manual.vue",e["default"]=i.exports},444:
+/*! no static exports found */function(n,e,t){"use strict";t.r(e);var r=t(/*! ./manual.vue?vue&type=template&id=1a92cd19& */444),u=t(/*! ./manual.vue?vue&type=script&lang=js& */446);for(var c in u)"default"!==c&&function(n){t.d(e,n,(function(){return u[n]}))}(c);var a,o=t(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */12),i=Object(o["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,null,null,!1,r["components"],a);i.options.__file="pages/service/manual.vue",e["default"]=i.exports},444:
 /*!**********************************************************************************************!*\
   !*** C:/Users/HP/Desktop/bxh1/bxh10/pages/service/manual.vue?vue&type=template&id=1a92cd19& ***!
   \**********************************************************************************************/

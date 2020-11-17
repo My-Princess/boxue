@@ -1,4 +1,5 @@
 <script>
+import { getopenids } from '@/api/index.js';
 export default {
 	globalData: {
 		calss: {
@@ -8,7 +9,7 @@ export default {
 	},
 	onLaunch: function() {
 		console.log('App Launch');
-		console.log(this.$store.removeItem)
+		console.log(this.$store.removeItem);
 		// #ifdef H5
 		window.JAnalyticsInterface.init({
 			appkey: 'e3e5c5a0afec33fb08d8de1a', // 极光官网中创建应用后分配的 appkey，必填
@@ -18,13 +19,62 @@ export default {
 			singlePage: false //设置是否为单页面，默认为 false
 		});
 		// #endif
-
+		// #ifdef H5
+		// this.wxAuthorize();
+		// #endif
 	},
 	onShow: function() {
 		console.log('App Show');
 	},
 	onHide: function() {
 		console.log('App Hide');
+	},
+	methods: {
+		// 微信公众号授权
+		wxAuthorize() {
+			let link = window.location.href;
+			// let getAppid = this.getWxUrlData('appid');
+			// console.log('getAppid', getAppid);
+			// if (getAppid) {
+			// 	uni.getStorageSync('getAppid', getAppid);
+			// 	console.log('缓存appid');
+			// }
+			let params = this.getWxUrlData('code'); // 地址解析
+			console.log('fsdfsad');
+			console.log('params', params);
+			if (params) {
+				console.log('code', params);
+				let data = { code: params };
+				getopenid(data).then(res => {
+					console.log(res);
+				});
+			} else {
+				let appid = 'wxe23e57a4e7b1c293';
+				let setUrl = 'http://qd.xiaoyuzhong123.com';
+				let uris = encodeURIComponent(setUrl);
+
+				let url =
+					'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' +
+					appid +
+					'&redirect_uri=' +
+					uris +
+					'&scope=snsapi_base&response_type=code&connect_redirect=1&#wechat_redirect';
+				window.location.href = url;
+			}
+		},
+		// 截取地址
+
+		getWxUrlData(variable) {
+			let query = window.location.search.substring(1);
+			let vars = query.split('&');
+			for (let i = 0; i < vars.length; i++) {
+				let pair = vars[i].split('=');
+				if (pair[0] == variable) {
+					return pair[1];
+				}
+			}
+			return false;
+		}
 	}
 };
 </script>
@@ -35,34 +85,33 @@ export default {
 // @import  "./static/css/normalize.css";
 @import 'uview-ui/index.scss';
 // @import  url('./static/css/icon/iconfont.css');
-@import  './static/css/icon/iconfont.css';
+@import './static/css/icon/iconfont.css';
 // @import  './app.less';
 /*每个页面公共css */
 /* @import "./static/css/icon/iconfont.css"; */
 
-// 
-/deep/.u-tabbar__content__circle__border{
+//
+/deep/.u-tabbar__content__circle__border {
 	// position: absolute;
 	top: -20rpx !important;
 }
-/deep/.u-tabbar__content__circle__button{
-	
+/deep/.u-tabbar__content__circle__button {
 	top: -4rpx !important;
 }
-/deep/.u-fixed-placeholder{
-	    height: calc(50px) !important;
+/deep/.u-fixed-placeholder {
+	height: calc(50px) !important;
 }
-.u-tabbar__content__circle /deep/ .u-icon__img{
+.u-tabbar__content__circle /deep/ .u-icon__img {
 	width: 108rpx !important;
 	height: 108rpx !important;
 }
 /*  #ifdef  H5  */
 // @import url('//at.alicdn.com/t/font_1963032_h09jrlxa818.css');
 /*  #endif  */
-.mescroll-upwarp /deep/ .upwarp-nodata{
+.mescroll-upwarp /deep/ .upwarp-nodata {
 	font-size: 24rpx !important;
 }
-button::after{
+button::after {
 	display: none;
 }
 .head {

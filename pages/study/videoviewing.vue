@@ -3,7 +3,9 @@
 		<view class="videoviewing-top">
 			<view class="videoviewing-top-video">
 				<view class="videoviewing-top-video-img">
+					<!-- #ifdef H5 -->
 					<view class="iconfont icon-zuojiantou" @click="navigateBack"></view>
+					<!-- #endif -->
 					<image src="https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/videoFooter.png" mode="" v-if="ShowImg"></image>
 					<view class="videos" v-if="!ShowImg">
 						<!-- <video :src="`https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/${videos}`" controls="controls" poster="../../static/img/视频底图.png"></video> -->
@@ -47,11 +49,11 @@
 					<!-- :ref="'mescrollRef' + activeTab" -->
 					<!-- <mescroll-uni  @init="mescrollInit" height="100%" top="40" :down="downOption" @down="downCallback" :up="upOption" @up="upCallback"> -->
 					<!-- 详情 -->
-					<view class="videoviewing-concent-box1" v-if="activeTab == 0">
+					<view class="videoviewing-concent-box1" v-show="activeTab == 0">
 						<view class="videoviewing-concent-box1-img"><u-parse :content="detailsdata.content" noData="" /></view>
 					</view>
 					<!-- 目录 -->
-					<view class="videoviewing-concent-box2" v-if="activeTab == 1">
+					<view class="videoviewing-concent-box2" v-show="activeTab == 1">
 						<u-collapse :head-style="headStyle" :body-style="bodyStyle" event-type="close" @change="change">
 						
 								<u-collapse-item :index="index" @change="itemChange" :title="item.head" v-for="(item, index) in itemList" :key="item.id" v-if="item.type">
@@ -64,11 +66,11 @@
 					</view>
 
 					<!-- 学员评价 -->
-					<view class="videoviewing-concent-box3" v-if="activeTab == 2">
+					<view class="videoviewing-concent-box3" v-show="activeTab == 2">
 						
-							<problemList :courseList="evaluateList">
+							<problemList :courseList="evaluateList" type="0">
 								<template v-slot:head>
-									<view class="problemList-head">
+									<view class="problemList-head" v-if="detailsdata.hasBuy == 1">
 										<view class="problemList-head-name">{{ study.Mycommenttxt }}</view>
 										<view class="problemList-head-btn" @click="myEvaluation">{{ study.Mycomment }}</view>
 									</view>
@@ -78,11 +80,11 @@
 					</view>
 
 					<!-- 问题讨论 -->
-					<view class="videoviewing-concent-box3" v-if="activeTab == 3">
+					<view class="videoviewing-concent-box3" v-show="activeTab == 3">
 				
-							<problemList :courseList="ClassProblemData">
+							<problemList :courseList="ClassProblemData" type="1">
 								<template v-slot:head>
-									<view class="problemList-head">
+									<view class="problemList-head" v-if="detailsdata.hasBuy == 1">
 										<view class="problemList-head-name">{{ study.Myquestiontxt }}</view>
 										<view class="problemList-head-btn" @click="Myquestion">{{ study.Myquestion }}</view>
 									</view>
