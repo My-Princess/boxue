@@ -99,7 +99,6 @@ export default {
 			isOvertime: false,
 			// 手机号框
 			phoneValue: '',
-
 			// 验证码
 			messageCode: '',
 			// 密码框
@@ -186,9 +185,7 @@ export default {
 				});
 				return false;
 			}
-
 			console.log(this.isOvertime);
-
 			if (!this.isOvertime) {
 				let data = { phone: this.phoneValue, type: 2, prefix: this.areacodenumber };
 				getCode(data).then(res => {
@@ -245,13 +242,11 @@ export default {
 				let appid = 'wxe23e57a4e7b1c293';
 				let setUrl = 'http://ceshi.xiaoyuzhong123.com/api/home/cc';
 				let uris = encodeURIComponent(setUrl);
-
 				let url =
 					'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' + appid + '&redirect_uri=' + uris + '&scope=snsapi_userinfo&response_type=code&#wechat_redirect';
 				window.location.href = url;
 			}
 		},
-
 		// 截取地址
 		getWxUrlData(variable) {
 			let query = window.location.search.substring(1);
@@ -264,7 +259,6 @@ export default {
 			}
 			return false;
 		},
-
 		// 密码登录
 		pwsLogin() {
 			if (this.phoneVal == '') {
@@ -349,7 +343,6 @@ export default {
 							console.log('存储成功');
 						}
 					});
-
 					uni.setStorage({
 						key: 'user', //key的名称是 url
 						data: res.data, //data中存放的是我的url地址
@@ -425,7 +418,6 @@ export default {
 								console.log('存储成功');
 							}
 						});
-
 						uni.setStorage({
 							key: 'user', //key的名称是 url
 							data: res.data, //data中存放的是我的url地址
@@ -433,7 +425,6 @@ export default {
 								console.log('存储成功');
 							}
 						});
-
 						if (res.data.status == 0) {
 							uni.navigateTo({
 								url: '/pages/login/wxlogin'
@@ -469,7 +460,6 @@ export default {
 				url: './message'
 			});
 		},
-
 		// 隐私
 		agreement() {
 			uni.navigateTo({
@@ -496,20 +486,16 @@ input {
 .input::-webkit-input-placeholder {
 	color: #cacacaff !important;
 }
-
 .input:-moz-placeholder {
 	color: #cacacaff !important;
 }
-
 .input:-ms-input-placeholder {
 	color: #cacacaff !important;
 }
-
 .cahngeColor {
 	background: #dc2a1f !important;
 	color: #ffffff !important;
 }
-
 /deep/input[type='text'],
 input[type='password'] {
 	width: 100%;
@@ -521,12 +507,10 @@ input[type='password'] {
 	padding: 0;
 	// outline: none;
 }
-
 input:focus,
 textarea:focus {
 	outline: none;
 }
-
 .wxlogin {
 	/* padding-top: 150rpx; */
 	/* padding-bottom: 122rpx; */
@@ -535,18 +519,15 @@ textarea:focus {
 	box-sizing: border-box;
 	background: #ffffff;
 }
-
 .wxlogin-logo {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
-
 .wxlogin-logo image {
 	width: 152rpx;
 	height: 152rpx;
 }
-
 .wxlogin-phone {
 	width: 588rpx;
 	/* width: 100%; */
@@ -555,27 +536,23 @@ textarea:focus {
 	display: flex;
 	align-items: flex-end;
 }
-
 .wxlogin-phone-left {
 	display: flex;
 	height: 40rpx;
 	line-height: 40rpx;
 }
-
 .wxlogin-phone-left-size {
 	font-size: 36rpx;
 	font-family: PingFang SC;
 	font-weight: 500;
 	color: #333333;
 }
-
 .wxlogin-phone-left .icon-xiajiantou {
 	display: flex;
 	align-items: center;
 	font-size: 42rpx;
 	font-weight: bold;
 }
-
 .wxlogin-phone .wxlogin-content {
 	padding-left: 13rpx;
 	font-size: 32rpx;
@@ -583,7 +560,6 @@ textarea:focus {
 	font-weight: 500;
 	color: #333333;
 }
-
 .wxlogin-line {
 	width: 588rpx;
 	height: 1px;
@@ -591,7 +567,6 @@ textarea:focus {
 	border-radius: 1px;
 	margin: 0 auto;
 }
-
 .wxlogin-yzm {
 	width: 588rpx;
 	padding: 65rpx 0rpx 20rpx 0rpx;
@@ -599,7 +574,6 @@ textarea:focus {
 	justify-content: space-between;
 	margin: 0 auto;
 }
-
 .wxlogin-yzm input {
 	flex: 1;
 	padding-left: 13rpx;
@@ -608,7 +582,6 @@ textarea:focus {
 	font-weight: 500;
 	color: #666666ff;
 }
-
 .wxlogin-yzm-hq text {
 	padding-left: 20rpx;
 	font-size: 32rpx;
@@ -616,7 +589,6 @@ textarea:focus {
 	font-weight: 500;
 	color: #666666;
 }
-
 .wxlogin-pws {
 	width: 588rpx;
 	/* width: 100%; */
@@ -625,7 +597,6 @@ textarea:focus {
 	justify-content: space-between;
 	margin: 0 auto;
 }
-
 .wxlogin-pws input {
 	display: block;
 	// outline: none;
@@ -637,44 +608,36 @@ textarea:focus {
 	font-weight: 500;
 	color: #333333;
 }
-
 input::-webkit-input-placeholder {
 	color: rgba(202, 202, 202, 1);
 }
-
 input::-moz-placeholder {
 	/* Mozilla Firefox 19+ */
 	color: rgba(202, 202, 202, 1);
 }
-
 input:-moz-placeholder {
 	/* Mozilla Firefox 4 to 18 */
 	color: rgba(202, 202, 202, 1);
 }
-
 input:-ms-input-placeholder {
 	/* Internet Explorer 10-11 */
 	color: rgba(202, 202, 202, 1);
 }
-
 .wxlogin-pws-icon {
 	margin-right: 15rpx;
 	width: 50rpx;
 	height: 40rpx;
 }
-
 .wxlogin-pws-icon image {
 	display: block;
 	width: 100%;
 	height: 100%;
 }
-
 .wxlogin-wxlogin {
 	display: flex;
 	justify-content: center;
 	padding-top: 70rpx;
 }
-
 .wxlogin-wxlogin .wxlogin-btn {
 	width: 570rpx;
 	height: 90rpx;
@@ -686,17 +649,14 @@ input:-ms-input-placeholder {
 	font-size: 36rpx;
 	color: rgba(153, 153, 153, 1);
 }
-
 .wxlogin-btn text {
 	font-size: 36rpx;
 	font-family: PingFang SC;
 }
-
 .cahngeColor {
 	background: rgba(220, 42, 31, 1);
 	color: rgba(255, 255, 255, 1);
 }
-
 .wxlogin-info {
 	width: 495rpx;
 	height: 25rpx;
@@ -709,18 +669,15 @@ input:-ms-input-placeholder {
 	margin: auto;
 	margin-left: 90rpx;
 }
-
 .wxlogin-info-right {
 	text-align: right;
 	color: #1879e5;
 }
-
 .wxlogin-other {
 	padding-top: 25%;
 	display: flex;
 	justify-content: center;
 }
-
 .wxlogin-other text {
 	text-align: center;
 	font-size: 26rpx;
@@ -728,7 +685,6 @@ input:-ms-input-placeholder {
 	font-weight: 500;
 	color: #333333;
 }
-
 .wxlogin-imgbtn {
 	padding-top: 29rpx;
 	display: flex;
@@ -736,20 +692,17 @@ input:-ms-input-placeholder {
 	justify-content: center;
 	align-items: center;
 }
-
 .wxlogin-imgbtn image {
 	width: 84rpx;
 	height: 84rpx;
 	/* margin: auto; */
 }
-
 .wxlogin-imgbtn-wx {
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
 	/* padding-right: 39rpx; */
 }
-
 .showPhone {
 	position: absolute;
 	left: 0;
@@ -758,15 +711,12 @@ input:-ms-input-placeholder {
 	height: 84rpx;
 	background: transparent;
 }
-
 button::after {
 	border: none !important;
 }
-
 .wxlogin-imgbtn-st {
 	padding-left: 39rpx;
 }
-
 .wxlogin-register {
 	text-align: right;
 	padding-top: 30rpx;
@@ -776,18 +726,15 @@ button::after {
 	font-weight: 500;
 	color: #db1f13;
 }
-
 .wxlogin-imgbtn-l {
 	position: relative;
 	width: 160rpx;
 	/* background: red; */
 }
-
 .wxlogin-imgbtn-r {
 	width: 160rpx;
 	/* background: red; */
 }
-
 .wxlogin-imgbtn-name {
 	text-align: center;
 	font-size: 26rpx;
@@ -796,7 +743,6 @@ button::after {
 	position: absolute;
 	top: 0;
 	left: 0;
-
 	width: 160rpx;
 	height: 120rpx;
 	background: transparent;

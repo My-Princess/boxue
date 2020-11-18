@@ -1,6 +1,8 @@
 {
   "navigationBarTitleText": "课程",
   "usingComponents": {
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "aboutlist": "/components/Aboutlist/Aboutlist",
     "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar"
   }
 }

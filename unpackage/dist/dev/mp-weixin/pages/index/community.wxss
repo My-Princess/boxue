@@ -9,6 +9,11 @@
 .activeColor.data-v-ed0edcfa {
   color: #db1f13 !important;
 }
+.activeBg.data-v-ed0edcfa {
+  background: -webkit-linear-gradient(269deg, #f99c7e 0%, #fe5750 100%) !important;
+  background: linear-gradient(181deg, #f99c7e 0%, #fe5750 100%) !important;
+  color: #fff !important;
+}
 .community-c-isFocus.data-v-ed0edcfa {
   width: 130rpx;
   height: 46rpx;
@@ -25,9 +30,6 @@
   color: #ffeeee;
   font-size: 24rpx;
   border-radius: 10px;
-}
-.community-concent1-active.data-v-ed0edcfa {
-  padding-top: 150rpx;
 }
 .community-concent-item-video.data-v-ed0edcfa uni-video {
   width: 100% !important;
@@ -99,6 +101,64 @@
   left: 0;
   top: 88rpx;
   background: #ffffff;
-  padding: 0 10rpx;
+  padding-top: 40rpx;
+  padding-left: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.community-tab1-item.data-v-ed0edcfa {
+  margin-right: 18rpx;
+  min-width: 156rpx;
+  height: 80rpx;
+  background: #eeeeee;
+  border-radius: 10px;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  padding: 0 25rpx 0rpx;
+  margin-bottom: 20rpx;
+}
+.community-tab1-top.data-v-ed0edcfa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  padding-bottom: 20rpx;
+}
+.community-tab1-top-name.data-v-ed0edcfa {
+  width: 86rpx;
+  height: 32rpx;
+  border: 1rpx solid #df3b30;
+  color: #df3b30;
+  font-size: 24rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-radius: 10px;
+  margin-right: 20rpx;
+}
+.community-tab1-top-txt.data-v-ed0edcfa {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
 }
 

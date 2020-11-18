@@ -72,7 +72,7 @@
 								<text>{{ QuestionsData.have }}/{{ QuestionsData.count }}</text>
 							</view>
 							<view class="study-concent-info1-gongge-box1-jd">
-								<u-line-progress active-color="#2979ff" :show-percent="false" :percent="70" height="6"></u-line-progress>
+								<u-line-progress active-color="#2979ff" :show-percent="false" :percent="(QuestionsData.have/QuestionsData.count) * 100" height="6"></u-line-progress>
 							</view>
 						</view>
 

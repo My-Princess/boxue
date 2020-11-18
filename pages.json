@@ -32,14 +32,9 @@
 			"style": {
 				"navigationBarTitleText": "课程"
 			}
-		},
-
-		{
+		},{
 			"path": "pages/order/orderdetails"
-		}
-
-
-	    ,{
+		},{
             "path" : "pages/index/CourseDefails",
             "style" : {}
         }
@@ -410,7 +405,7 @@
 			"style": {}
 		}, {
 			"path": "mycourses",
-			"style": {}
+			"style": {		"navigationBarTitleText": "我的课程"}
 		}, {
 			"path": "myTask",
 			"style": {}

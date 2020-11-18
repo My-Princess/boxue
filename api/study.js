@@ -240,10 +240,18 @@ export const addClassProblem = (data) => {
 
 
 
-// 小程序支付
+// 小程序课程支付
 export const Wxprepay = (data) => {
 	return request.JA({
 		url: `/class/prepay/${uni.getStorageSync('token')}.html`,
+		method: "POST",
+		data
+	})
+}
+// H5课程支付
+export const classprepay = (data) => {
+	return request.JA({
+		url: `/class/prepayH5/${uni.getStorageSync('token')}.html`,
 		method: "POST",
 		data
 	})

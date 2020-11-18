@@ -9,6 +9,13 @@ export const getopenids = (data) => {
 	  data
 	})
 }
+export const loginopenid = (data) => {
+	return request.JA({
+	  url: '/api/phone/h5Login',
+	  method: "GET",
+	  data
+	})
+}
 
 /*         首页     */
 export const getIndex = () => {

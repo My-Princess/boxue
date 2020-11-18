@@ -23,7 +23,7 @@ const state = {
 			selectedIconPath: 'https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/xxxz.png',
 			text: '学习',
 			customIcon: false,
-								pagePath: '/pages/index/study',
+			pagePath: '/pages/index/study',
 		},
 		{
 			iconPath: 'https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/kcicon.png',
@@ -31,7 +31,7 @@ const state = {
 			text: '',
 			midButton: true,
 			customIcon: false,
-				pagePath: '/pages/user/mycourses',
+				pagePath: '/pages/index/course',
 		},
 		{
 			iconPath: 'https://boxue-resource.oss-cn-shenzhen.aliyuncs.com/tie/sq.png',

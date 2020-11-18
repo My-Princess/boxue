@@ -19,6 +19,7 @@ export default {
 			singlePage: false //设置是否为单页面，默认为 false
 		});
 		// #endif
+		
 		// #ifdef H5
 		// this.wxAuthorize();
 		// #endif
@@ -45,25 +46,54 @@ export default {
 			if (params) {
 				console.log('code', params);
 				let data = { code: params };
-				getopenid(data).then(res => {
-					console.log(res);
-				});
+				// getopenid(data).then(res => {
+				// 	console.log(res);
+				// });
 			} else {
 				let appid = 'wxe23e57a4e7b1c293';
-				let setUrl = 'http://qd.xiaoyuzhong123.com';
+				let setUrl = 'http://ceshi.xiaoyuzhong123.com/api/home/cc';
 				let uris = encodeURIComponent(setUrl);
 
 				let url =
-					'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' +
-					appid +
-					'&redirect_uri=' +
-					uris +
-					'&scope=snsapi_base&response_type=code&connect_redirect=1&#wechat_redirect';
+					'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' + appid + '&redirect_uri=' + uris + '&scope=snsapi_userinfo&response_type=code&#wechat_redirect';
 				window.location.href = url;
 			}
 		},
-		// 截取地址
 
+		// 微信公众号授权 (静默授权)
+		// wxAuthorize() {
+		// 	let link = window.location.href;
+		// 	// let getAppid = this.getWxUrlData('appid');
+		// 	// console.log('getAppid', getAppid);
+		// 	// if (getAppid) {
+		// 	// 	uni.getStorageSync('getAppid', getAppid);
+		// 	// 	console.log('缓存appid');
+		// 	// }
+		// 	let params = this.getWxUrlData('code'); // 地址解析
+		// 	console.log('fsdfsad');
+		// 	console.log('params', params);
+		// 	if (params) {
+		// 		console.log('code', params);
+		// 		let data = { code: params };
+		// 		getopenid(data).then(res => {
+		// 			console.log(res);
+		// 		});
+		// 	} else {
+		// 		let appid = 'wxe23e57a4e7b1c293';
+		// 		let setUrl = 'http://qd.xiaoyuzhong123.com';
+		// 		let uris = encodeURIComponent(setUrl);
+
+		// 		let url =
+		// 			'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' +
+		// 			appid +
+		// 			'&redirect_uri=' +
+		// 			uris +
+		// 			'&scope=snsapi_base&response_type=code&connect_redirect=1&#wechat_redirect';
+		// 		window.location.href = url;
+		// 	}
+		// },
+
+		// 截取地址
 		getWxUrlData(variable) {
 			let query = window.location.search.substring(1);
 			let vars = query.split('&');
